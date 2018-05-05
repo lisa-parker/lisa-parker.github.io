@@ -5,6 +5,7 @@ body {
     line-height: 32px;
     font-family: Avenir, Arial, sans-serif;
     color: #5E3D20;
+    margin: 100px;
 }
 
 h1 {
@@ -15,7 +16,11 @@ h1 {
 h2 {
     font-size: 1.5rem;
     text-align: center;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 5px solid #2F4F2A;
+    background-color: gainsboro;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 header, main, footer {
@@ -31,7 +36,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 161px;
+    width: 182px;
     height: auto;
     float: right;
 }
