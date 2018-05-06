@@ -16,7 +16,7 @@ h1 {
 h2 {
     font-size: 1.5rem;
     text-align: center;
-    border-bottom: 5px solid #2F4F2A;
+    border-bottom: 4px solid #2F4F2A;
     background-color: gainsboro;
     padding-top: 10px;
     padding-bottom: 4px;
@@ -36,7 +36,7 @@ header, footer, footer a {
 }
 
 header img {
-    width: 182px;
+    width: 180px;
     height: auto;
     float: right;
 }
