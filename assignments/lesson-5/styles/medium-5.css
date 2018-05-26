@@ -1,0 +1,84 @@
+@media only screen and (min-width: 37.5em) {
+  
+  nav ul li {
+    display: inline;
+  }
+
+  nav button { display: none; }  /* hamburger button does not need to be shown in the medium on up views */
+    
+  header h1 {
+    font-size: 2.25em;
+  }
+  
+  header .subheading {
+    font-size: 1.5rem;
+  }
+  
+  main h2 {
+    font-size: 2em;
+  }
+  
+  main figure img {
+    width: 30%
+  }
+  
+  .weather-summary {
+    margin-left: 10rem;
+  }
+  
+  .forecast {
+    padding: 1em;
+    border: 2px solid #26333E;
+    clear: both;
+    display: flex; 
+    background: #D56B35;
+    color: #FBFBFB;
+  }
+  
+  .forecast h3 {
+    text-align: center;
+    color: #FBFBFB;
+  }
+  
+  th {
+    width: 48rem;
+    font-size: 12px;
+    padding: .4rem;
+    border: 2px solid #26333E;
+    }
+  
+  tr {
+    align-content: center;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  td {
+    border: 2px solid #26333E;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+  }
+  
+  article img {
+    width: 45%;
+    float: left;
+    padding-right: 1rem;
+  }
+  .town article {
+    padding: 1rem;
+  }
+  
+  footer {
+    clear:both
+  }
+
+  .forecast { 
+  clear: both;
+  display: block; 
+  margin: 3em;
+  } 
+  
+
+}

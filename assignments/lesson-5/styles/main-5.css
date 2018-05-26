@@ -1,0 +1,154 @@
+* { box-sizing: border-box;}  
+
+body {
+  font-size: 16px;
+  font-family: Avenir, Arial, sans-serif;
+  background-color: #FBFBFB;
+  }
+
+header, nav, main, footer { 
+  max-width: 54rem; 
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FBFBFB;
+  padding: .5rem;
+}
+header h1 {
+  font-size: 2rem;
+  color: #26333E;
+  text-align: center
+}
+header img {
+  width: 6rem;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  width: 25%;
+   float: left;
+}
+
+header .subheading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 2rem; 
+  text-align: center;
+  }
+
+nav {}
+nav button {}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #26333E;
+}
+nav ul li {
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  font-size: 1rem;
+  color: #FBFBFB;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+nav ul li.active a {
+  background-color: #D56B35;
+  color: #FBFBFB;
+}
+
+nav ul li a:hover {
+  background-color: #C0C0C6;
+  color: #D56B35;
+  font-weight: 500;
+}
+
+main {
+  padding: 1rem;
+}
+
+main h2 {
+  font-size: 1.75rem;
+  text-align: center;
+  color: #D56B35;
+}
+
+main picture img {
+  width: 100%;
+}
+main figure { 
+  margin: 0 0 .2rem 2%; 
+  width: 96%; 
+}
+main figure img { 
+  float: left;
+  padding: 1.5rem;
+}
+
+.weather-summary{
+  float: left;
+  padding: 1.5rem;
+}
+
+h3 {
+  text-align: left;
+  color: #26333E;
+}
+
+article h3 {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: .2rem;
+  font-size: 1.5rem;
+  clear: both;
+}
+
+footer h3 {
+  text-align: center;
+  color: #D56B35;
+}
+
+article p {
+  line-height: 21px;
+}
+
+article {
+  border: 1px solid #26333E;
+  padding: 1rem;
+}
+
+article img {
+  width: 100%;
+}
+
+.town-article {
+  margin: 10px 0 0 0;
+  text-align: justify
+} 
+
+.forecast {
+  display: none;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #FBFBFB;
+}
+
+footer .contact {
+  background-color: #26333E;
+  padding: 1rem;
+
+}
+
+footer .footer-bar {
+  background-color: #6B6E7A;
+  padding: 1rem;
+}

@@ -9,8 +9,12 @@ body {
 }
 
 h1 {
+    display: inline-block;
     font-size: 2rem;  
     color: floralwhite;
+    margin-top: 50px;
+    padding: 1.75rem;
+    border: 8px outset floralwhite;
 }
 
 h2 {
@@ -36,10 +40,12 @@ header, footer, footer a {
 }
 
 header img {
-    width: 205px;
+    width: 180px;
     height: auto;
     float: right;
 }
+
+header { overflow: auto;}
 
 footer {
     font-size: 12px;

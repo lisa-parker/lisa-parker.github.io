@@ -1,0 +1,27 @@
+@media only screen and (min-width: 64em) {
+    
+  header h1 {
+    font-size: 3em;
+  }
+  
+  main h2 {
+    font-size: 2em;
+    
+  }
+    header .subheading {
+    font-size: 2rem;
+  }
+  
+  main h2 {
+    font-size: 2.5em;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  .weather-summary {
+    margin-left: 12rem;
+  }
+  
+  }
