@@ -1,13 +1,13 @@
 @media only screen and (min-width: 37.5em) {
   
   nav ul li {
-    display: inline;
+    display: inline-block;
   }
-
+    
   nav button { display: none; }  /* hamburger button does not need to be shown in the medium on up views */
     
   header h1 {
-    font-size: 2.25em;
+    font-size: 2.2em;
   }
   
   header .subheading {
@@ -19,46 +19,57 @@
   }
   
   main figure img {
-    width: 30%
+    max-width: 42%;
   }
   
   .weather-summary {
-    margin-left: 10rem;
+    margin-left: 12%;
+  }
+  
+  .weather-summary div {
+    font-size: 18px; 
   }
   
   .forecast {
-    padding: 1em;
-    border: 2px solid #26333E;
+    position: relative;
+    top: 1rem;
+    padding: .75em;
+    border: 3px solid #26333E;
     clear: both;
     display: flex; 
     background: #D56B35;
-    color: #FBFBFB;
+    color: #26333E;
   }
   
   .forecast h3 {
     text-align: center;
     color: #FBFBFB;
+    padding: .75rem;
   }
   
   th {
     width: 48rem;
     font-size: 12px;
     padding: .4rem;
+    background-color: #FBFBFB;
     border: 2px solid #26333E;
     }
   
   tr {
     align-content: center;
     font-size: 12px;
+    font-weight: 500;
     text-align: center;
+    background-color: #FBFBFB;
   }
   
   td {
+    padding: .4rem;
     border: 2px solid #26333E;
   }
   
   h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   
   article img {
@@ -71,7 +82,7 @@
   }
   
   footer {
-    clear:both
+    clear: both
   }
 
   .forecast { 

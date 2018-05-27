@@ -2,6 +2,7 @@
     
   header h1 {
     font-size: 3em;
+    text-align: right;
   }
   
   main h2 {
@@ -9,7 +10,8 @@
     
   }
     header .subheading {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    text-align: right;
   }
   
   main h2 {
@@ -21,7 +23,11 @@
   }
   
   .weather-summary {
-    margin-left: 12rem;
+    margin-left: 20%;
+  }
+  
+  .weather-summary div {
+    font-size: 21px; 
   }
   
   }
