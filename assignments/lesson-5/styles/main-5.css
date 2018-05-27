@@ -150,15 +150,20 @@ article img {
   text-align: justify
 } 
 
-.article-link {
-    color: #D56B35;
-    font-weight: 700;
+article p a {
+  text-decoration: none;
+  color: #D56B35;
+}
+
+article p a:hover {
+  color: #D56B35;
+  font-weight: 700;
+  
 }
 
 footer h3 {
   text-align: center;
   color: #D56B35;
-  font-family: Baskerville, Garamond, serif;
   
 }
 
