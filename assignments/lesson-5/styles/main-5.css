@@ -36,10 +36,10 @@ header h1 {
   font-family: Baskerville, Garamond, serif;
 }
 header img {
-  max-width: 80%;
+  max-width: 75%;
   height: auto;
   padding-bottom: 1rem;
-  padding-right: .5rem;
+  padding-right: .25rem;
 }
 
 .logo {
@@ -113,7 +113,7 @@ main figure img {
 
 .weather-summary{
   float: left;
-  padding: 1.5rem 1rem 1.5rem 2rem ;
+  padding: 1.5rem 1rem 1.5rem 1rem ;
 }
 
 .highlow {
