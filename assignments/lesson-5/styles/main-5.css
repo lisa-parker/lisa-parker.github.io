@@ -29,14 +29,14 @@ header {
   padding: .5rem;
 }
 header h1 {
-  margin: 1rem 0 .25rem 0;
+  margin: 1rem 0 .5rem 0;
   font-size: 1.8rem;
   color: #26333E;
   text-align: center;
   font-family: Baskerville, Garamond, serif;
 }
 header img {
-  max-width: 72%;
+  max-width: 5.75rem;
   height: auto;
   padding-bottom: 1rem;
   padding-right: .1rem;
@@ -106,7 +106,7 @@ main figure {
   width: 96%; 
 }
 main figure img { 
-  max-width: 42%;
+  max-width: 38%;
   float: left;
   padding: 1.5rem 0;
 }
