@@ -2,12 +2,12 @@
     
   header h1 {
     font-size: 3rem;
-    text-align: right;
+    text-align: center;
   }
   
   header .subheading {
     font-size: 1.75rem;
-    text-align: right;
+    text-align: center;
   }
   
   header img {

@@ -26,10 +26,10 @@ header, nav, main, footer {
 
 header {
   background-color: #FBFBFB;
-  padding: .25rem;
+  padding: .5rem;
 }
 header h1 {
-  margin: 2rem 0 .25rem .25rem;
+  margin: 1rem 0 .25rem .25rem;
   font-size: 1.8rem;
   color: #26333E;
   text-align: center;
