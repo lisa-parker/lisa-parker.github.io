@@ -22,10 +22,6 @@
     font-size: 2em;
   }
   
-  main figure img {
-    max-width: 40%;
-  }
-  
   .weather-summary {
     margin-left: 12%;
   }
