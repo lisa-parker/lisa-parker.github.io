@@ -36,7 +36,7 @@ header h1 {
   font-family: Baskerville, Garamond, serif;
 }
 header img {
-  max-width: 5.75rem;
+  max-width: 5.5rem;
   height: auto;
   padding-bottom: 1rem;
   padding-right: .1rem;
@@ -106,7 +106,7 @@ main figure {
   width: 96%; 
 }
 main figure img { 
-  max-width: 38%;
+  max-width: 32%;
   float: left;
   padding: 1.5rem 0;
 }
