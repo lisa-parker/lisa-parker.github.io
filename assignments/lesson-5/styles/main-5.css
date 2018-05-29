@@ -29,7 +29,7 @@ header {
   padding: .5rem;
 }
 header h1 {
-  margin: 1rem 0 .5rem 0;
+  margin: 1rem 0 .25rem 0;
   font-size: 1.8rem;
   color: #26333E;
   text-align: center;
@@ -91,7 +91,7 @@ main {
 }
 
 main h2 {
-  margin: 1.75rem .5rem .5rem .5rem;
+  margin: 1.75rem 0 .5rem 0;
   font-size: 1.65rem;
   text-align: center;
   color: #D56B35;
@@ -108,12 +108,12 @@ main figure {
 main figure img { 
   max-width: 42%;
   float: left;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem .5rem;
 }
 
 .weather-summary{
   float: left;
-  padding: 1.5rem 1rem 1.5rem 1rem ;
+  padding: 1.5rem .5rem 1.5rem .5rem ;
 }
 
 .highlow {
