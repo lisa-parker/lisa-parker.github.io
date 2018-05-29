@@ -107,7 +107,7 @@ main figure {
 main figure img { 
   max-width: 32%;
   float: left;
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 2rem 0;
 }
 
 .weather-summary{
