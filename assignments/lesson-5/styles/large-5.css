@@ -5,13 +5,13 @@
     text-align: right;
   }
   
-  main h2 {
-    font-size: 2em;
-    
-  }
-    header .subheading {
+  header .subheading {
     font-size: 1.75rem;
     text-align: right;
+  }
+  
+  header img {
+    width: 7rem;
   }
   
   main h2 {

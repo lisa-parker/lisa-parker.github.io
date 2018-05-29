@@ -6,8 +6,8 @@
     
   nav button { display: none; }  /* hamburger button does not need to be shown in the medium on up views */
   
-  .logo {
-    width: 25%;
+  header img {
+    width: 6.25rem;
   }
     
   header h1 {
