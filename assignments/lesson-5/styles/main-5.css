@@ -6,12 +6,9 @@ body {
   background-color: #FBFBFB;
   }
 
-h2 {
-  font-family: Baskerville, Garamond, serif;
-}
 h3 {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-family: Baskerville, Garamond, serif;
 }
 
@@ -27,6 +24,7 @@ header, nav, main, footer {
 header {
   background-color: #FBFBFB;
   padding: .5rem;
+  
 }
 header h1 {
   margin: 1rem 0 .5rem 0;
@@ -35,6 +33,7 @@ header h1 {
   text-align: center;
   font-family: Baskerville, Garamond, serif;
 }
+
 header img {
   max-width: 5.5rem;
   height: auto;
@@ -56,13 +55,16 @@ nav {
   text-align: center;
   clear: left;
 }
+
 nav button {}
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   background-color: #26333E;
 }
+
 nav ul li {
   text-align: center;
 }
@@ -74,6 +76,7 @@ nav ul li a {
   padding: 14px 14px;
   text-decoration: none;
 }
+
 nav ul li.active a {
   background-color: #D56B35;
   color: #FBFBFB;
@@ -90,8 +93,9 @@ main {
 }
 
 main h2 {
+  font-family: Baskerville, Garamond, serif;
   margin: 1.75rem 0 .5rem 0;
-  font-size: 1.65rem;
+  font-size: 1.75rem;
   text-align: center;
   color: #D56B35;
 }
@@ -100,19 +104,21 @@ main picture img {
   max-width: 100%;
   height: auto;
 }
+
 main figure { 
   margin: 0 0 .2rem 2%; 
   width: 96%; 
 }
+
 main figure img { 
-  max-width: 30%;
+  max-width: 36%;
   float: left;
   padding: 1.5rem 0 2rem 0;
 }
 
-.weather-summary{
+.weather-summary {
   float: left;
-  padding: 1.5rem 0 1.5rem .5rem;
+  padding: 1.5rem 8%;
 }
 
 .highlow {
@@ -124,6 +130,7 @@ main figure img {
  .weather-summary h3 {
   text-align: left;
   color: #26333E;
+  margin-bottom: .5rem;
 }
 
 article h3 {
@@ -159,14 +166,12 @@ article p a {
 
 article p a:hover {
   color: #D56B35;
-  font-weight: 700;
-  
+  font-weight: 700; 
 }
 
 footer h3 {
   text-align: center;
   color: #D56B35;
-  
 }
 
 footer {
@@ -175,12 +180,10 @@ footer {
   color: #FBFBFB;
 }
  
-
 footer .contact {
   background-color: #26333E;
   padding: 2rem 0 1rem 0;
   line-height: 24px;
-
 }
 
 footer .footer-bar {
