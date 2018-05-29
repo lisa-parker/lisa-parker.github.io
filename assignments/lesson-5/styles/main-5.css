@@ -29,17 +29,17 @@ header {
   padding: .5rem;
 }
 header h1 {
-  margin: 1rem 0 .25rem .25rem;
+  margin: 1rem 0 .5rem 0;
   font-size: 1.8rem;
   color: #26333E;
   text-align: center;
   font-family: Baskerville, Garamond, serif;
 }
 header img {
-  width: 5.5rem;
+  max-width: 85%;
   height: auto;
   padding-bottom: 1rem;
-  padding-right: 5px;
+  padding-right: .5rem;
 }
 
 .logo {
@@ -51,7 +51,6 @@ header .subheading {
   font-weight: 600;
   padding-bottom: 2rem; 
   text-align: center;
-  margin-bottom: .25rem;
   }
 
 nav {
@@ -99,7 +98,7 @@ main h2 {
 }
 
 main picture img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 main figure { 
@@ -107,14 +106,14 @@ main figure {
   width: 96%; 
 }
 main figure img { 
-  width: 42%;
+  max-width: 42%;
   float: left;
-  padding: 1.25rem;
+  padding: 1.5rem 1rem;
 }
 
 .weather-summary{
   float: left;
-  padding: 1.25rem;
+  padding: 1.5rem 1rem 1.5rem 2rem ;
 }
 
 .highlow {
@@ -145,13 +144,13 @@ article {
 }
 
 article img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 .town-article {
   margin: 10px 0 0 0;
-  text-align: justify
+  text-align: left;
 } 
 
 article p a {
