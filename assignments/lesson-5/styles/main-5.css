@@ -29,8 +29,8 @@ header {
   padding: .5rem;
 }
 header h1 {
-  margin: 2.25rem 0 .25rem 0;
-  font-size: 1.75rem;
+  margin: 1rem 0 .25rem 0;
+  font-size: 1.65rem;
   color: #26333E;
   text-align: center;
   font-family: Baskerville, Garamond, serif;
@@ -47,7 +47,7 @@ header img {
 }
 
 header .subheading {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   padding-bottom: 2rem; 
   text-align: center;
