@@ -39,6 +39,7 @@ header img {
   width: 5.5rem;
   height: auto;
   padding-bottom: 1rem;
+  padding-right: 5px;
 }
 
 .logo {
@@ -99,6 +100,7 @@ main h2 {
 
 main picture img {
   width: 100%;
+  height: auto;
 }
 main figure { 
   margin: 0 0 .2rem 2%; 
@@ -144,6 +146,7 @@ article {
 
 article img {
   width: 100%;
+  height: auto;
 }
 
 .town-article {
