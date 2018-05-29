@@ -36,10 +36,10 @@ header h1 {
   font-family: Baskerville, Garamond, serif;
 }
 header img {
-  max-width: 75%;
+  max-width: 72%;
   height: auto;
   padding-bottom: 1rem;
-  padding-right: .25rem;
+  padding-right: .1rem;
 }
 
 .logo {
