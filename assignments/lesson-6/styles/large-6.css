@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64em) {
+    
+  header h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  header .subheading {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 1.85rem;
+  }
+  
+  .weather-summary {
+    margin-left: 18%;
+  }
+  
+  .weather-summary div {
+    font-size: 21px; 
+  }
+  
+  article img {
+    margin-bottom: .5rem;
+  }
+  
+  }

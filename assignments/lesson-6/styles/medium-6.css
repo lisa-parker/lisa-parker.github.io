@@ -1,0 +1,87 @@
+@media only screen and (min-width: 37.5em) {
+  
+  nav ul li {
+    display: inline-block;
+  }
+    
+  nav button { display: none; } 
+    
+  header h1 {
+    font-size: 2.25rem;
+  }
+  
+  header .subheading {
+    font-size: 1.5rem;
+  }
+  
+  main h2 {
+    font-size: 2.25em;
+  }
+  
+  .weather-summary {
+    margin-left: 10%;
+  }
+  
+  .weather-summary div {
+    font-size: 18px; 
+  }
+  
+  .forecast {
+    position: relative;
+    top: 1rem;
+    padding: .75em;
+    border: 2px solid #26333E;
+    clear: both;
+    display: flex; 
+    background: #D56B35;
+    color: #26333E;
+  }
+  
+  .forecast h3 {
+    text-align: center;
+    color: #FBFBFB;
+    padding: .75rem;
+  }
+  
+  tr {
+    align-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FBFBFB;
+  }
+  
+  th {
+    width: 48rem;
+    font-size: 12px;
+    padding: .4rem;
+    background-color: #FBFBFB;
+    border: 2px solid #26333E;
+    }
+  
+  td {
+    padding: .4rem;
+    border: 2px solid #26333E;
+  }
+  
+  h3 {
+    font-size: 1.65rem;
+  }
+  
+  article img {
+    max-width: 60%;
+    float: left;
+    margin-right: 1rem; 
+  }
+  
+  footer {
+    clear: left;
+  }
+
+  .forecast { 
+  clear: both;
+  display: block; 
+  margin: 3em;
+  } 
+  
+}

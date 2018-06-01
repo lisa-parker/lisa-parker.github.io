@@ -1,0 +1,196 @@
+* { box-sizing: border-box;}  
+
+body {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  background-color: #FBFBFB;
+  font-weight: 400;
+  }
+
+h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-family: Baskerville, Garamond, serif;
+}
+
+.forecast {
+  display: none;
+}
+
+header, nav, main, footer { 
+  max-width: 54rem; 
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FBFBFB;
+  padding: .75rem;
+  
+}
+header h1 {
+  margin: 1rem 0 .5rem 0;
+  font-size: 1.8rem;
+  color: #26333E;
+  text-align: center;
+  font-family: Baskerville, Garamond, serif;
+}
+
+header img {
+  max-width: 82%;
+  height: auto;
+  padding-bottom: 1.5rem;
+  }
+
+.logo {
+  float: left;
+}
+
+header .subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 2rem; 
+  text-align: center;
+  }
+
+nav {
+  text-align: center;
+  clear: left;
+}
+
+nav button {
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #26333E;
+}
+
+nav ul li {
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  font-size: 1rem;
+  color: #FBFBFB;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+nav ul li.active a {
+  background-color: #D56B35;
+  color: #FBFBFB;
+}
+
+nav ul li a:hover {
+  background-color: #D56B35;
+  color: #FBFBFB;
+  font-weight: 500;
+}
+
+main {
+  padding: .75rem;
+}
+
+main h2 {
+  font-family: Baskerville, Garamond, serif;
+  margin: 1.75rem 0 .5rem 0;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #D56B35;
+}
+
+main picture img {
+  max-width: 100%;
+  height: auto;
+}
+
+main figure { 
+  margin: 0 0 .2rem 2%; 
+  width: 96%; 
+}
+
+main figure img { 
+  max-width: 35%;
+  float: left;
+  padding: 1.5rem 0 2rem 0;
+}
+
+.weather-summary {
+  float: left;
+  padding: 1.5rem 8%;
+}
+
+ .weather-summary h3 {
+  text-align: left;
+  color: #26333E;
+  margin-bottom: .5rem;
+}
+
+.highlow {
+  display: flex;
+  width: 100%;
+  font-weight: 600;
+}
+
+article h3 {
+  text-align: center;
+  padding: .5rem .5rem 0 .5rem;
+  margin-bottom: 1rem;
+  clear: both;
+}
+
+article p {
+  line-height: 21px;
+}
+
+article {
+  border: 2px solid #26333E;
+  padding: 1rem;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.town-article {
+  margin: 10px 0 0 0;
+  text-align: left;
+} 
+
+article p a {
+  text-decoration: none;
+  color: #D56B35;
+}
+
+article p a:hover {
+  color: #D56B35;
+  font-weight: 700; 
+}
+
+footer h3 {
+  text-align: center;
+  color: #D56B35;
+}
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  color: #FBFBFB;
+}
+ 
+footer .contact {
+  background-color: #26333E;
+  padding: 2rem 0 1rem 0;
+  line-height: 24px;
+}
+
+footer .footer-bar {
+  font-size: 12px;
+  background-color: #6B6E7A;
+  padding: 1rem;
+}
