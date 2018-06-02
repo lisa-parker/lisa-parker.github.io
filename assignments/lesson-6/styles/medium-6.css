@@ -2,7 +2,7 @@
   
   nav button { display: none; } 
   
-  nav ul.hide {
+  .hide {
     display: block;
   }
   
@@ -23,7 +23,7 @@
   }
   
   main h2 {
-    font-size: 2.25em;
+    font-size: 2.25rem;
   }
   
   .weather-summary {
@@ -37,7 +37,7 @@
   .forecast {
     position: relative;
     top: 1rem;
-    padding: .75em;
+    padding: .75rem;
     border: 2px solid #26333E;
     clear: both;
     display: flex; 
@@ -89,7 +89,7 @@
   .forecast { 
   clear: both;
   display: block; 
-  margin: 3em;
+  margin: 3rem;
   } 
   
 }
