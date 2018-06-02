@@ -1,3 +1,3 @@
-function toggelMenu() {
-  console.log("It worked!")
+function toggleMenu() {
+  console.log("it worked");
 }
