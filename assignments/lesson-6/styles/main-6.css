@@ -55,6 +55,7 @@ header .subheading {
 nav {
   clear: left;
   background-color: #26333E;
+  text-align: center;
 }
 
 nav button {
@@ -69,6 +70,10 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+nav ul .hide {
+  display: none;
 }
 
 nav ul li {
