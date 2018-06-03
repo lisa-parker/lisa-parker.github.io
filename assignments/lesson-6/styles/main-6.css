@@ -55,11 +55,12 @@ header .subheading {
 nav {
   clear: left;
   background-color: #26333E;
-  text-align: center;
+  text-align: right;
+  width: 
 }
 
 nav button {
-  margin: 2%;
+  margin: 2% .8rem 2% .8rem;
   color: #FBFBFB;
   font-size: 1.75rem; 
   border: none;
@@ -77,14 +78,14 @@ nav ul {
 }
 
 nav ul li {
-  text-align: center;
+  text-align: right;
 }
 
 nav ul li a {
   display: block;
   font-size: 1rem;
   color: #FBFBFB;
-  padding: 14px 14px;
+  padding: .8rem .8rem;
   text-decoration: none;
 }
 
