@@ -46,7 +46,7 @@ header h1 {
 }
 
 header img {
-  flex: 0 1 auto;
+  flex: auto;
   width: 82%;
   height: auto;
   padding: 1.5rem 0;
@@ -91,7 +91,7 @@ nav ul li a {
   display: block;
   font-size: 1rem;
   color: #FBFBFB;
-  padding: .8rem .8rem;
+  padding: .8rem 1rem;
   text-decoration: none;
 }
 
@@ -124,20 +124,27 @@ main picture img {
   height: auto;
 }
 
+.weather-report {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 main figure { 
-  margin: 0 0 .2rem 2%; 
+  flex: 1;
+  margin: 0 0 .3rem 2%; 
   width: 96%; 
 }
 
 main figure img { 
-  max-width: 35%;
-  float: left;
+  width: 75%;
   padding: 1.5rem 0 2rem 0;
 }
 
 .weather-summary {
-  float: left;
-  padding: 1.5rem 8%;
+  flex: 1;
+  padding: 5% 0 5% 0;
 }
 
  .weather-summary h3 {
@@ -156,7 +163,6 @@ article h3 {
   text-align: center;
   padding: .5rem .5rem 0 .5rem;
   margin-bottom: 1rem;
-  clear: both;
 }
 
 article p {
@@ -194,6 +200,8 @@ footer h3 {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   font-size: 14px;
   text-align: center;
   color: #FBFBFB;

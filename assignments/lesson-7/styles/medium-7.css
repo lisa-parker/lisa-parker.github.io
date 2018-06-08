@@ -10,11 +10,14 @@
     text-align: center;
   }
   
-  nav ul li{
-    display: inline-flex;
+  nav ul#primaryNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
   
   nav ul li {
+    flex: auto;
     text-align: center;
 }
   
@@ -39,11 +42,9 @@
   }
   
   .forecast {
-    position: relative;
-    top: 1rem;
+    flex: auto;
     padding: .75rem;
     border: 2px solid #26333E;
-    clear: both;
     display: flex; 
     background: #D56B35;
     color: #26333E;
@@ -52,7 +53,7 @@
   .forecast h3 {
     text-align: center;
     color: #FBFBFB;
-    padding: .75rem;
+    padding: .5rem;
   }
   
   tr {
@@ -85,13 +86,8 @@
     float: left;
     margin-right: 1rem; 
   }
-  
-  footer {
-    clear: left;
-  }
 
   .forecast { 
-  clear: both;
   display: block; 
   margin: 3rem;
   } 
