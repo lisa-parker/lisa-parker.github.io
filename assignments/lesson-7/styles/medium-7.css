@@ -42,9 +42,9 @@
   }
   
   .forecast {
+    display: flex; 
     padding: .75rem;
     border: 2px solid #26333E;
-    display: flex; 
     background: #D56B35;
     color: #26333E;
   }
