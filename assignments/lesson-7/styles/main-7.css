@@ -85,6 +85,7 @@ nav ul {
 
 nav ul li {
   text-align: right;
+  /*border-bottom: .1px solid #FBFBFB;*/
 }
 
 nav ul li a {
@@ -93,12 +94,6 @@ nav ul li a {
   color: #FBFBFB;
   padding: .8rem 1rem;
   text-decoration: none;
-}
-
-nav ul li.active a {
-  margin: 0;
-  background-color: #6B6E7A;
-  color: #FBFBFB;
 }
 
 nav ul li a:hover {
@@ -111,7 +106,7 @@ main {
   padding: .75rem;
 }
 
-main h2 {
+h2 {
   font-family: Baskerville, Garamond, serif;
   margin: 1.75rem 0 .5rem 0;
   font-size: 1.75rem;
@@ -139,7 +134,7 @@ main figure {
 
 main figure img { 
   width: 75%;
-  padding: 1.5rem 0 2rem 0;
+  padding: 1.5rem 0 2rem 1rem;
 }
 
 .weather-summary {
@@ -150,13 +145,21 @@ main figure img {
  .weather-summary h3 {
   text-align: left;
   color: #26333E;
-  margin-bottom: .5rem;
+  margin-bottom: 1.25rem;
 }
 
 .highlow {
   display: flex;
   width: 100%;
   font-weight: 600;
+}
+
+.highlow p {
+  margin: .5rem 0 1.25rem 0;
+}
+
+.conditions p {
+  margin: 0 0 1.25rem 0;
 }
 
 article h3 {
@@ -217,4 +220,25 @@ footer .footer-bar {
   font-size: 12px;
   background-color: #6B6E7A;
   padding: 1rem;
+}
+
+/* Grid CSS */
+
+.gallery {
+  display: grid;
+  text-align: center;
+}
+
+.gallery figure {
+  padding: 0;
+  margin; 0;
+}
+
+.gallery figure img {
+  padding: 2rem 0 .75rem 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 12px;
 }

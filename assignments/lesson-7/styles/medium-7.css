@@ -19,7 +19,7 @@
   nav ul li {
     flex: auto;
     text-align: center;
-}
+  }
   
   header h1 {
     font-size: 2.25rem;
@@ -29,7 +29,7 @@
     font-size: 1.5rem;
   }
   
-  main h2 {
+  h2 {
     font-size: 2.25rem;
   }
   
@@ -42,7 +42,6 @@
   }
   
   .forecast {
-    flex: auto;
     padding: .75rem;
     border: 2px solid #26333E;
     display: flex; 
@@ -51,6 +50,7 @@
   }
   
   .forecast h3 {
+    flex: 1 1 100%;
     text-align: center;
     color: #FBFBFB;
     padding: .5rem;
@@ -91,5 +91,12 @@
   display: block; 
   margin: 3rem;
   } 
+  
+  /* Grid CSS */
+  
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
   
 }
