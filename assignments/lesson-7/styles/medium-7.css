@@ -35,6 +35,7 @@
   
   .weather-summary {
     margin-left: 10%;
+    padding-bottom: 1%;
   }
   
   .weather-summary div {
@@ -43,6 +44,7 @@
   
   .forecast {
     display: flex; 
+    flex-flow: row wrap;
     padding: .75rem;
     border: 2px solid #26333E;
     background: #D56B35;
@@ -50,7 +52,7 @@
   }
   
   .forecast h3 {
-    flex: 1 1 100%;
+    flex: auto;
     text-align: center;
     color: #FBFBFB;
     padding: .5rem;

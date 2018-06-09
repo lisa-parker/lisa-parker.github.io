@@ -22,6 +22,11 @@
     font-size: 21px; 
   }
   
+  .weather-summary {
+    margin-left: 15%;
+    padding-bottom: 3%;
+  }
+  
   article img {
     margin-bottom: .5rem;
   }
