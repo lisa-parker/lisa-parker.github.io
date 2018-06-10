@@ -22,11 +22,6 @@
     font-size: 21px; 
   }
   
-  .weather-summary {
-    margin-left: 15%;
-    padding-bottom: 3%;
-  }
-  
   article img {
     margin-bottom: .5rem;
   }
@@ -39,7 +34,7 @@
   }
   
   .gallery figure:hover {
-     box-shadow: 6px 6px 16px gray;
+     box-shadow: 6px 6px 16px #909199;
   }
 
   }

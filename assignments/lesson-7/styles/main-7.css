@@ -90,7 +90,6 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #D56B35;
-  color: #FBFBFB;
   font-weight: 500;
 }
 
@@ -99,7 +98,7 @@ main {padding: .75rem;}
 h2 {
   font-family: Baskerville, Garamond, serif;
   margin: 1.75rem 0 .5rem 0;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   text-align: center;
   color: #D56B35;
 }
@@ -124,12 +123,13 @@ main figure {
 
 main figure img { 
   width: 75%;
-  padding: 1.5rem 0 1.5rem 1rem;
+  padding: 1rem 0 1rem 1rem;
 }
 
 .weather-summary {
   flex: 1.05;
-  padding: 5% 0 1.5rem 0;
+  padding: 5% 0 5% 0;
+  margin-left: 10%;
 }
 
  .weather-summary h3 {
@@ -146,7 +146,7 @@ main figure img {
 
 .highlow p {margin: .5rem 0 1.25rem 0;}
 
-.conditions p {margin: 0 0 1.25rem 0;}
+.conditions p {margin-bottom: 1.25rem;}
 
 article h3 {
   text-align: center;
@@ -167,7 +167,7 @@ article img {
 }
 
 .town-article {
-  margin: 10px 0 0 0;
+  margin-top: 10px 0 0 0;
   text-align: left;
 } 
 
@@ -215,14 +215,12 @@ footer .footer-bar {
   text-align: center;
 }
 
-.gallery figure {
-  padding: 0;
-  margin; 0;
-}
-
 .gallery figure img {
   padding: 2rem 0 .75rem 0;
   text-align: center;
 }
 
-figcaption {font-size: 12px;}
+figcaption {
+  font-size: 12px;
+  padding-bottom: .75rem;
+}

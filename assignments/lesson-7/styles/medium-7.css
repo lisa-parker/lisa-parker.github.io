@@ -6,10 +6,6 @@
     display: block;
   }
   
-  nav {
-    text-align: center;
-  }
-  
   nav ul#primaryNav{
     display: flex;
     justify-content: space-around;
@@ -30,12 +26,12 @@
   }
   
   h2 {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   
   .weather-summary {
     margin-left: 10%;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
   }
   
   .weather-summary div {
@@ -45,6 +41,7 @@
   .forecast {
     display: flex; 
     flex-flow: row wrap;
+    margin: 3rem 2rem 3rem 2rem;
     padding: .75rem;
     border: 2px solid #26333E;
     background: #D56B35;
@@ -69,13 +66,13 @@
   th {
     width: 48rem;
     font-size: 12px;
-    padding: .4rem;
+    padding: .45rem;
     background-color: #FBFBFB;
     border: 2px solid #26333E;
     }
   
   td {
-    padding: .4rem;
+    padding: .45rem;
     border: 2px solid #26333E;
   }
   
@@ -88,11 +85,6 @@
     float: left;
     margin-right: 1rem; 
   }
-
-  .forecast { 
-  display: block; 
-  margin: 3rem;
-  } 
   
   /* Grid CSS */
   
