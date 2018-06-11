@@ -164,6 +164,7 @@ article {
 article img {
   max-width: 100%;
   height: auto;
+  box-shadow: 6px 6px 16px #909199;
 }
 
 .town-article {
