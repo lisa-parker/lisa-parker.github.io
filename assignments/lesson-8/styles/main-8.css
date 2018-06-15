@@ -234,3 +234,11 @@ h2.thanks {
 
 /*Form*/
 
+form label.above input, form label.above select, form label.above textarea {
+  display: block;
+}
+
+form label.radio {
+  display: block;
+}
+
