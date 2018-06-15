@@ -37,10 +37,14 @@
   .gallery figure:hover {
      box-shadow: 6px 6px 16px #909199;
   }
-
-  /* Thank you form*/
-  h2.thanks {
-  margin: 5rem 0;
-}
   
+  p.center {
+    margin-bottom: 3.5rem;
+    font-size: 1.5rem;
   }
+  
+  form label.radio {
+    padding: .4rem;
+  }
+  
+}

@@ -92,8 +92,10 @@
     grid-template-rows: 1fr 1fr 1fr;
   }
   /* Thank you form*/
-  h2.thanks {
-  margin: 4rem 0;
-}
+  p.center {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+  }
+
   
 }
