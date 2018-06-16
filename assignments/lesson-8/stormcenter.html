@@ -39,7 +39,7 @@
         
         <fieldset>
           <legend>Contact Information</legend>
-          <label class="above">Full Name<span class="orange">&ast;</span><input type="text" name="name" pattern="[A-Za-z ]{5,}" title="Please Enter Your Full Name" required></label>
+          <label class="above">Full Name<span class="orange">&ast;</span><input type="text" name="name" pattern="[A-Za-z ]{5,}" placeholder="First Last" title="Please Enter Your Full Name" required></label>
           <label class="above">Email <input type="email" name="email" placeholder="someone@gmail.com" title="Email is Optional"></label>
           <label class="above">Phone <span class="orange">&ast;</span><input type="tel" name="phone" placeholder="1235551234" title="Please Enter Your Phone Number" required></label>
           <label class="above">Zip Code<span class="orange">&ast;</span> <input type="number" name="zip" placeholder="98787" title="Please Enter Your Zip Code" required></label>
@@ -57,13 +57,6 @@
               <option value="Tornado"></option>
             </datalist>
           </label>
-          <div class="severity">
-            <label for="rating">Storm Severity (1 to 10)</label>
-            <span class="rate">
-		      <input id="rating" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-		      <span id="ratingvalue">5</span>
-            </span>
-          </div>
           <label class="above">Select Storm Region 
             <select name="region">
               <option value="" selected disabled>Please Select One</option>
@@ -72,6 +65,13 @@
               <option value="springfield">Springfield</option>
             </select>
           </label>
+          <div class="severity">
+            <label for="rating">Storm Severity (1 to 10)</label>
+            <span class="rate">
+		      <input id="rating" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		      <span id="ratingvalue">5</span>
+            </span>
+          </div>
           <div class=radiobutton>Are you in danger?</div>
             <div>
             <label class="radio"><input class="radioBtn" type="radio" name="danger" value="yes"> Yes</label>
@@ -100,5 +100,6 @@
     </footer>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/stormseverity.js"></script>
+    <script src="scripts/currentdate.js"></script>
   </body>
 </html>
