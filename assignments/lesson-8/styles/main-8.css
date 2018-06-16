@@ -239,15 +239,6 @@ p.center {
   margin: 0 0 2.75rem 0;
 }
 
-form label.above input, form label.above select, form label.above textarea, form label.radio {
-  display: block;
-  padding: .75rem .2rem;
-  width: 100%;
-  max-width: 20rem;
-  margin-bottom: 1rem;
-  border: 2px solid #6B6E7A;
-}
-
 form fieldset {
   background-color: #C0C0C6;
   border: 2px solid #26333E;
@@ -260,8 +251,18 @@ form legend {
   padding: .5rem;
   margin-bottom: .75rem;
   border: 2px solid #26333E;
+  border-radius: 3px;
   font-family:  Baskerville, Garamond, serif;
   font-weight: 700;
+}
+
+form label.above input, form label.above select, form label.above textarea, form label.radio {
+  display: block;
+  padding: .75rem .2rem;
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 1rem;
+  border: 2px solid #6B6E7A;
 }
 
 form label.above textarea {
@@ -301,7 +302,7 @@ form input.button {
   color: #FBFBFB;
   padding: .75rem;
   margin: 0 0 1rem 1rem;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 form label.above input, form label.above select {
