@@ -227,16 +227,16 @@ figcaption {
   padding-bottom: .75rem;
 }
 
-/*Thank you and form*/
+/*Thank you and Form*/
 
 h2.storm {
-  margin: 3rem 0 0 0;
+  margin: 2rem 0 1.25rem 0;
 }
 
 p.center {
   font-size: 1rem;
   text-align: center;
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 2.75rem 0;
 }
 
 form label.above input, form label.above select, form label.above textarea, form label.radio {
@@ -250,7 +250,7 @@ form label.above input, form label.above select, form label.above textarea, form
 
 form fieldset {
   background-color: #C0C0C6;
-  border: 2px solid #6B6E7A;
+  border: 2px solid #26333E;
   margin-bottom: 2rem;
 }
 
@@ -258,7 +258,7 @@ form legend {
   background-color: #FBFBFB;
   font-size: 1.25rem;
   padding: .75rem;
-  border: 2px solid #6B6E7A;
+  border: 2px solid #26333E;
   font-family:  Baskerville, Garamond, serif;
   font-weight: 700;
 }
@@ -267,9 +267,32 @@ form label.above textarea {
   height: 10rem;
 }
 
-form input#slider {
+form input#rating {
+  -webkit-appearance: none;
+  height: 10px;
+  background: #26333E;
+  outline: none;
   width: 100%;
-  max-width: 17.5rem;
+  max-width: 17.6rem;
+  margin-bottom: .25rem;
+}
+
+form input#rating::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #D56B35;
+    cursor: pointer;
+}
+
+form input#rating::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #D56B35;
+    cursor: pointer;
 }
 
 form input.button {
@@ -288,8 +311,13 @@ form label.radio {
   border: none;
 }
 
+.radioBtn {
+  margin-right: .25rem;
+  
+}
+
 form label.above input:required {
-  border: 2px solid #D56B35;
+  border-left: 5px solid #D56B35;
 }
 
 .orange {
@@ -307,11 +335,11 @@ div.severity {
 span.rate {
   display: flex;
   margin: 1rem 0;
-  width: 
+  align-items: center; 
 }
 
 #ratingvalue {
-  margin-left: .5rem;
+  margin: 0 0 .25rem .5rem;
   padding: .25rem .5rem;
   border: 2px solid #6B6E7A;
   background-color: #FBFBFB;
