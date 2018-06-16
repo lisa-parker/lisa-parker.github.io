@@ -257,7 +257,8 @@ form fieldset {
 form legend {
   background-color: #FBFBFB;
   font-size: 1.25rem;
-  padding: .75rem;
+  padding: .5rem;
+  margin-bottom: .75rem;
   border: 2px solid #26333E;
   font-family:  Baskerville, Garamond, serif;
   font-weight: 700;
