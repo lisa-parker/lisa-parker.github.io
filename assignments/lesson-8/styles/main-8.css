@@ -227,10 +227,10 @@ figcaption {
   padding-bottom: .75rem;
 }
 
-/*Thank you and Form*/
+/*-----Thank you and Form*------*/
 
 h2.storm {
-  margin: 2rem 0 1.25rem 0;
+  margin: 2rem 0 .75rem 0;
 }
 
 p.center {
@@ -239,9 +239,14 @@ p.center {
   margin: 0 0 2.75rem 0;
 }
 
+#margin {
+  margin-bottom: 9rem;
+}
+
 form fieldset {
   background-color: #C0C0C6;
   border: 2px solid #26333E;
+  border-radius: 2.5px;
   margin-bottom: 2rem;
 }
 
@@ -251,27 +256,31 @@ form legend {
   padding: .5rem;
   margin-bottom: .75rem;
   border: 2px solid #26333E;
-  border-radius: 3px;
+  border-radius: 2.5px;
   font-family:  Baskerville, Garamond, serif;
   font-weight: 700;
 }
 
 form label.above input, form label.above select, form label.above textarea, form label.radio {
+  -webkit-appearance: none;
   display: block;
   padding: .75rem .2rem;
   width: 100%;
   max-width: 20rem;
   margin-bottom: 1rem;
   border: 2px solid #6B6E7A;
+  border-radius: 2.5px;
+  color: #26333E;
 }
 
 form label.above textarea {
-  height: 10rem;
+  height: 12rem;
 }
 
 form input#rating {
   -webkit-appearance: none;
   height: 10px;
+  border-radius: 2.5px;
   background: #26333E;
   outline: none;
   width: 100%;
@@ -302,19 +311,23 @@ form input.button {
   color: #FBFBFB;
   padding: .75rem;
   margin: 0 0 1rem 1rem;
-  border-radius: 3px;
+  border-radius: 2px;
+  width: 96%;
+  max-width: 20rem;
 }
 
 form label.above input, form label.above select {
+  padding-left: .5rem;
   height: 3rem;
 }
 
 form label.radio {
   border: none;
+  color: #26333E;
 }
 
 .radioBtn {
-  margin-right: .25rem;
+  margin: 0 .25rem 0 .5rem;
   
 }
 
@@ -322,12 +335,26 @@ form label.above input:required {
   border-left: 5px solid #D56B35;
 }
 
+form label.above input:required:valid {
+  border-left: 5px solid #26333E;
+}
+
 .orange {
+  font-size: 2rem;
   color: #D56B35;
 }
 
+.arrow {
+  color: #D56B35;
+  font-size: 1.75rem;
+}
+
 .radiobutton {
-  margin-bottom: 1rem;
+  width: 20rem;
+  padding: .75rem 0 .75rem 0;
+  color: #26333E;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 
 div.severity {
@@ -344,13 +371,6 @@ span.rate {
   margin: 0 0 .25rem .5rem;
   padding: .25rem .5rem;
   border: 2px solid #6B6E7A;
+  border-radius: 2.5px;
   background-color: #FBFBFB;
 }
-
-
-
-
-
- 
-
-

@@ -34,15 +34,15 @@
     </nav>
     <main>
       <h2 class="storm">Storm Center</h2>
-      <p class="center">Report a storm or unusual weather event</p>
+      <p class="center">Report a storm or unusual weather event.</p>
+      
       <form method="get" action="thanks.html">
-        
         <fieldset>
           <legend>Contact Information</legend>
-          <label class="above">Full Name<span class="orange">&ast;</span><input type="text" name="name" pattern="[A-Za-z ]{5,}" placeholder="First Last" title="Please Enter Your Full Name" required></label>
+          <label class="above">Full Name<span class="orange">&#8902;</span><input type="text" name="name" pattern="[A-Za-z ]{5,}" placeholder="First Last" title="Please Enter Your Full Name" required></label>
+          <label class="above">Phone<span class="orange">&#8902;</span><input type="tel" name="phone" placeholder="1235551234" title="Please Enter Your Phone Number" required></label>
+          <label class="above">Zip Code<span class="orange">&#8902;</span> <input type="number" name="zip" placeholder="98787" title="Please Enter Your Zip Code" required></label>
           <label class="above">Email <input type="email" name="email" placeholder="someone@gmail.com" title="Email is Optional"></label>
-          <label class="above">Phone <span class="orange">&ast;</span><input type="tel" name="phone" placeholder="1235551234" title="Please Enter Your Phone Number" required></label>
-          <label class="above">Zip Code<span class="orange">&ast;</span> <input type="number" name="zip" placeholder="98787" title="Please Enter Your Zip Code" required></label>
         </fieldset>
         
         <fieldset>
@@ -59,7 +59,7 @@
           </label>
           <label class="above">Select Storm Region 
             <select name="region">
-              <option value="" selected disabled>Please Select One</option>
+              <option value="" selected disabled>Please Select One &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &#9662; </option>
               <option value="franklin">Franklin</option>
               <option value="greenville">Greenville</option>
               <option value="springfield">Springfield</option>
@@ -72,17 +72,18 @@
 		      <span id="ratingvalue">5</span>
             </span>
           </div>
-          <div class=radiobutton>Are you in danger?</div>
+          <div class="radioBox">
+          <div class=radiobutton><span class="arrow">&#9656;</span> Are you in danger?</div>
             <div>
             <label class="radio"><input class="radioBtn" type="radio" name="danger" value="yes"> Yes</label>
             <label class="radio"><input class="radioBtn" type="radio" name="danger" value="maybe"> Maybe</label>
             <label class="radio"><input class="radioBtn" type="radio" name="danger" value="no"> No</label>
             </div>
           <label class="above">Comments<textarea name="comments"></textarea></label>
+          </div>
         </fieldset>
-        
+    
         <input class="button" type="submit" value="Send My Report">
-        
       </form>
     </main>
     <footer>
