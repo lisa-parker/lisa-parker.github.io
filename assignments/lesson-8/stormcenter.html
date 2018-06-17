@@ -48,7 +48,7 @@
         <fieldset>
           <legend class="above">Storm Information</legend>
           <label class="above date">Storm Date <input type="date" name="stormdate"></label>
-          <label class="above">Select Storm Type <input list="stormtypes" placeholder="Please Select One">
+          <label class="above">Select Storm Type <input list="stormtypes" name="stormtype" placeholder="Please Select One">
             <datalist id="stormtypes">
               <option value="Flash Flood"></option>
               <option value="Hail"></option>
@@ -58,7 +58,7 @@
             </datalist>
           </label>
           <label class="above">Select Storm Region 
-            <select name="region">
+            <select name="stormregion">
               <option value="" selected disabled>Please Select One &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &#9662; </option>
               <option value="franklin">Franklin</option>
               <option value="greenville">Greenville</option>
@@ -68,7 +68,7 @@
           <div class="rateSeverity">
             <label for="rating">Storm Severity (1 to 10)</label>
             <span class="rate">
-		      <input id="rating" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+		      <input id="rating" type="range" name="severityrate" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
 		      <span id="ratingvalue">5</span>
             </span>
           </div>
@@ -81,7 +81,7 @@
           <label class="above">Comments<textarea name="comments"></textarea></label>
         </fieldset>
     
-        <input class="button" type="submit" value="Send My Report">
+        <input class="button" type="submit" name="submit" value="Send My Report">
       </form>
     </main>
     <footer>
