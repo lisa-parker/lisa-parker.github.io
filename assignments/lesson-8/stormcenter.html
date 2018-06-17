@@ -25,10 +25,10 @@
       <button type="button" onclick="toggleMenu()">&#9776;</button>
       <ul id="primaryNav" class="hide">
         <li><a href="#">Home</a></li>
-        <li class="active"><a href="franklin-8.html">Franklin</a></li>
+        <li><a href="franklin-8.html">Franklin</a></li>
         <li><a href="#">Greenville</a></li>
         <li><a href="#">Springfield</a></li>
-        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li class="active"><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery-8.html">Gallery</a></li>
       </ul>		
     </nav>
@@ -65,7 +65,7 @@
               <option value="springfield">Springfield</option>
             </select>
           </label>
-          <div class="severity">
+          <div class="rateSeverity">
             <label for="rating">Storm Severity (1 to 10)</label>
             <span class="rate">
 		      <input id="rating" type="range" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">

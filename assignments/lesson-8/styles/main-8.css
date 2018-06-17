@@ -94,6 +94,11 @@ nav ul li a:hover {
   font-weight: 500;
 }
 
+nav ul li.active {
+  background-color: #6B6E7A;
+  color: #FBFBFB;
+}
+
 main {padding: .75rem;}
 
 h2 {
@@ -227,7 +232,9 @@ figcaption {
   padding-bottom: .75rem;
 }
 
-/*-----Thank you and Form*------*/
+
+/*--------Thank you and Form*---------*/
+
 
 h2.storm {
   margin: 2rem 0 .75rem 0;
@@ -248,12 +255,14 @@ form fieldset {
   border: 2px solid #26333E;
   border-radius: 2.5px;
   margin-bottom: 2rem;
+  width: 100%; 
+  height: auto
 }
 
 form legend {
   background-color: #FBFBFB;
   font-size: 1.25rem;
-  padding: .5rem;
+  padding: .4rem;
   margin-bottom: .75rem;
   border: 2px solid #26333E;
   border-radius: 2.5px;
@@ -273,8 +282,17 @@ form label.above input, form label.above select, form label.above textarea, form
   color: #26333E;
 }
 
-form label.above textarea {
-  height: 10rem;
+form label.above input, form label.above select {
+  padding-left: .5rem;
+  height: 3rem;
+}
+
+#ratingvalue {
+  margin: 0 0 .25rem .5rem;
+  padding: .25rem .5rem;
+  border: 2px solid #6B6E7A;
+  border-radius: 2.5px;
+  background-color: #FBFBFB;
 }
 
 form input#rating {
@@ -306,37 +324,39 @@ form input#rating::-moz-range-thumb {
     cursor: pointer;
 }
 
-form input.button {
-  background-color: #D56B35;
-  color: #FBFBFB;
-  padding: .75rem;
-  margin: 0 0 1rem 1rem;
-  border-radius: 2px;
-  width: 96%;
-  max-width: 20rem;
+span.rate {
+  display: flex;
+  margin: 1rem 0;
+  align-items: center; 
 }
 
-form label.above input, form label.above select {
-  padding-left: .5rem;
-  height: 3rem;
+div.rateSeverity {
+  margin-bottom: 1rem;
 }
 
 form label.radio {
+  margin-top: 1rem;
   border: none;
   color: #26333E;
   padding: .75rem 0;
 }
 
 .radiodiv {
-  margin-bottom: 2.25rem;
-  margin-left: .15rem;
-  
+  width: 100%;
+  max-width: 20rem;
+  margin-bottom: 2.25rem;  
 }
 
 .radioBtn {
-  margin-right: .25rem;
-  
+  margin: 0 .5rem 0 .75rem;
+  color: #D56B35;
 }
+
+.radiobutton {
+  width: 20rem;
+  padding-top: .75rem;
+  color: #26333E;
+  }
 
 form label.above input:required {
   border-left: 5px solid #D56B35;
@@ -351,28 +371,16 @@ form label.above input:required:valid {
   color: #D56B35;
 }
 
-.radiobutton {
-  width: 20rem;
-  padding: .75rem 0 .25rem 0;
-  color: #26333E;
-  font-weight: 700;
-  font-size: 1.25rem;
+form label.above textarea {
+  height: 12rem;
 }
 
-div.severity {
-  margin-bottom: 1rem;
-}
-
-span.rate {
-  display: flex;
-  margin: 1rem 0;
-  align-items: center; 
-}
-
-#ratingvalue {
-  margin: 0 0 .25rem .5rem;
-  padding: .25rem .5rem;
-  border: 2px solid #6B6E7A;
+form input.button {
+  background-color: #D56B35;
+  color: #FBFBFB;
+  padding: .75rem;
+  margin: 0 0 1rem 1rem;
   border-radius: 2.5px;
-  background-color: #FBFBFB;
+  width: 96%;
+  max-width: 20rem;
 }
