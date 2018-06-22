@@ -1,0 +1,50 @@
+@media only screen and (min-width: 64em) {
+    
+  header h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  header .subheading {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 1.85rem;
+  }
+  
+  .weather-summary div {
+    font-size: 21px; 
+  }
+  
+  article img {
+    margin-bottom: .5rem;
+  }
+  
+  /* Grid CSS */
+  
+  .gallery {
+    margin-bottom: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .gallery figure:hover {
+     box-shadow: 6px 6px 16px #909199;
+  }
+  
+  p.center {
+    margin-bottom: 3.5rem;
+    font-size: 1.5rem;
+  }
+  
+  form label.radio {
+    padding: .35rem;
+  }
+  
+}

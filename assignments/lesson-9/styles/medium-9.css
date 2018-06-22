@@ -1,0 +1,101 @@
+@media only screen and (min-width: 37.5em) {
+  
+  nav button { display: none; } 
+  
+  .hide {
+    display: block;
+  }
+  
+  nav ul#primaryNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav ul li {
+    flex: auto;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.25rem;
+  }
+  
+  header .subheading {
+    font-size: 1.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  .weather-summary {
+    margin-left: 10%;
+    padding-bottom: 2%;
+  }
+  
+  .weather-summary div {
+    font-size: 18px; 
+  }
+  
+  .forecast {
+    display: flex; 
+    flex-flow: row wrap;
+    margin: 3rem 0;
+    padding: .75rem;
+    border: 2px solid #26333E;
+    background: #D56B35;
+    color: #26333E;
+  }
+  
+  .forecast h3 {
+    flex: auto;
+    text-align: center;
+    color: #FBFBFB;
+    padding: .75rem;
+  }
+  
+  tr {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #FBFBFB;
+  }
+  
+  th {
+    width: 54rem;
+    font-size: 12px;
+    padding: .45rem;
+    background-color: #FBFBFB;
+    border: 2px solid #26333E;
+    }
+  
+  td {
+    padding: .45rem;
+    border: 2px solid #26333E;
+  }
+  
+  h3 {
+    font-size: 1.65rem;
+  }
+  
+  article img {
+    max-width: 60%;
+    float: left;
+    margin-right: 1rem; 
+  }
+  
+  /* Grid CSS */
+  
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  /* Thank you form*/
+  p.center {
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+  }
+
+  
+}
