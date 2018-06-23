@@ -26,7 +26,7 @@
     margin-bottom: .5rem;
   }
   
-  /*----Home_---*/
+  /*-------- Home Large --------*/
   
    #weather-story {
     display: flex;
@@ -40,7 +40,6 @@
     flex-flow: column;
     padding: .75rem;
   }
-  
   
   div.townsections {
     flex-flow: row nowrap;
@@ -75,7 +74,9 @@
   display: none;
 }
   
-  /* Grid CSS */
+  
+  /* ------- Grid CSS ------- */
+  
   
   .gallery {
     margin-bottom: 1.5rem;

@@ -217,7 +217,7 @@ footer .footer-bar {
 }
 
 
-/* -----Home page----- */
+/* ------ Home page ------ */
 
 .townimgs img {
   width: 100%;
@@ -234,7 +234,7 @@ div.town {
 }
 
 div#weather-story {
- background-color: #FBFBFB;
+ margin-top: 2rem;
 } 
 
 
@@ -265,7 +265,8 @@ div.townsections {
 }
 
 
-/* CSS Grid Gallery page */
+/* ------- Grid Gallery -------- */
+
 
 .gallery {
   display: grid;

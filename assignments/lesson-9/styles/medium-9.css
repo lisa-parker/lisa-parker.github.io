@@ -86,7 +86,8 @@
   }
   
   
-  /* -----CSS home page medium-----*/
+  /* ------- Home page medium -------*/
+  
   
  div.town {
    display: flex;
@@ -120,18 +121,18 @@
     text-align: left;
   }
   
-  
   div.reverse {
     flex-direction: row-reverse;
   }
 
-  
   .tilde {
     display: inline;
     font-size: 6rem;
 }
   
+  
   /* Grid CSS */
+  
   
   .gallery {
     grid-template-columns: 1fr 1fr;
