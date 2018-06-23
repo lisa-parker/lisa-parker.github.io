@@ -88,7 +88,6 @@
   
   /* ------- Home page medium -------*/
   
-  
  div.town {
    display: flex;
    justify-content: space-between;
@@ -98,7 +97,6 @@
   #weather-story article {
     font-size: 1rem;
   }
-  
   
   article.towndata {
     width: 80%;
@@ -111,7 +109,7 @@
   }
   
   picture.townimg {
-    width: 125%;
+    width: 100%;
     height: auto;
     flex: 1 1 auto;
   }

@@ -40,7 +40,7 @@
     flex-flow: column;
     align-items: center;
     padding: .75rem;
-    width: 32%;
+    width: 32.5%;
     border: 2px solid #26333E;
   }
   
@@ -48,6 +48,11 @@
     flex-flow: row nowrap;
     justify-content: space-between;  
   }
+  
+  .townsections .towndata {
+   border: none;
+   background-color: #FBFBFB;
+}
   
   #weather-story article {
     padding-left: 1.75rem;
@@ -65,15 +70,9 @@
     font-size: 1rem;
   }
   
-  article.towndata, #greenville article.towndata {
+  .townsections article.towndata, #greenville article.towndata {
     margin: 0;
     width: 100%;
-  }
-  
-  
-  
-  div.town {
-    border: none;
   }
   
   .tilde {
