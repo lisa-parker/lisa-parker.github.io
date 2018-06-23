@@ -99,19 +99,27 @@
     font-size: 1rem;
   }
   
+  
   article.towndata {
-    /*flex: 1 1 auto;*/
-    width: 90%;
+    width: 80%;
+    height: auto;
     padding: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.05rem;
     text-align: center;
+    margin-right: 1rem;
+    flex: 1 1 auto;
   }
   
   picture.townimg {
-    /*flex: 1 1 auto;*/
-    width: 100%;
-    padding: 1rem;
+    width: 125%;
+    height: auto;
+    flex: 1 1 auto;
   }
+  
+  #weather-story article, #greenville article {
+  margin-left: 1rem;
+  margin-right: 0;
+}
   
   .towndata > h2 {
     text-align: center;
@@ -128,6 +136,8 @@
   .tilde {
     display: inline;
     font-size: 6rem;
+    margin: 0;
+    padding: 0;
 }
   
   

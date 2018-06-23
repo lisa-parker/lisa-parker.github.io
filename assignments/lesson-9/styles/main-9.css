@@ -227,7 +227,7 @@ footer .footer-bar {
 
 div.town {
   width: 100%;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  padding: 1rem 1rem 1rem 1rem;
   border: 2px solid #26333E;
   margin-bottom: 2rem;
   background-color: #DCDCDE;
@@ -237,24 +237,34 @@ div#weather-story {
  margin-top: 2rem;
 } 
 
+#Franklin-motto, #Greenville-motto, #Springfield-motto {
+    font-size: 1.15rem;
+  font-style: italic;
+  }
 
 div.townsections {
   display: flex;
   flex-flow: column;
 }
 
-#wstoryh {
+.towndata #wstoryh {
   text-align: center;
 }
 
-#weather-story article {
-  margin-left: 1rem;
+.towndata #wstoryp {
+  text-align: justify;
 }
+
 
 .towndata > h2 {
   margin: 0 0 .45rem 0;
-  text-align: left;
+  text-align: center;
 }
+
+.towndata > p {
+  text-align: center;
+}
+
 
  strong.bold {
   font-weight: 700;
@@ -264,6 +274,13 @@ div.townsections {
   display: none;
 }
 
+footer p a {
+  color: #26333E;
+}
+
+footer p a:hover {
+  font-weight: 700; 
+}
 
 /* ------- Grid Gallery -------- */
 
@@ -285,16 +302,8 @@ figcaption {
 
 .footer-link {font-style: normal;}
 
-footer p a {
-  color: #26333E;
-}
 
-footer p a:hover {
-  font-weight: 700; 
-}
-
-
-/*--------Thank you and Form*---------*/
+/*-------- Thank you and Form ---------*/
 
 
 h2.storm {
