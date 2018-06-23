@@ -217,7 +217,55 @@ footer .footer-bar {
 }
 
 
-/* Grid CSS */
+/* -----Home page----- */
+
+.townimgs img {
+  width: 100%;
+  height: auto;
+  box-shadow: 6px 6px 16px #909199;
+}
+
+div.town {
+  width: 100%;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border: 2px solid #26333E;
+  margin-bottom: 2rem;
+  background-color: #DCDCDE;
+}
+
+div#weather-story {
+ background-color: #FBFBFB;
+} 
+
+
+div.townsections {
+  display: flex;
+  flex-flow: column;
+}
+
+#wstoryh {
+  text-align: center;
+}
+
+#weather-story article {
+  margin-left: 1rem;
+}
+
+.towndata > h2 {
+  margin: 0 0 .45rem 0;
+  text-align: left;
+}
+
+ strong.bold {
+  font-weight: 700;
+}
+
+.tilde {
+  display: none;
+}
+
+
+/* CSS Grid Gallery page */
 
 .gallery {
   display: grid;
@@ -243,7 +291,6 @@ footer p a {
 footer p a:hover {
   font-weight: 700; 
 }
-
 
 
 /*--------Thank you and Form*---------*/

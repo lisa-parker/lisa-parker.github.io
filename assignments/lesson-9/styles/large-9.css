@@ -26,6 +26,55 @@
     margin-bottom: .5rem;
   }
   
+  /*----Home_---*/
+  
+   #weather-story {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    border: 2px solid #26333E;
+  }
+  
+  .townsections div.town {
+    display: flex;
+    flex-flow: column;
+    padding: .75rem;
+  }
+  
+  
+  div.townsections {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border: 2px solid #26333E;
+    background-color: #DCDCDE;
+  }
+  
+  #weather-story article {
+    padding-left: 1.75rem;
+    margin: 0 .5rem;
+  }
+  
+  .townsections p {
+    text-align: left;
+  }
+  
+  .townsections h2 {
+    text-align: left;
+    font-size: 1.45rem;
+  }
+  
+  .townsections p {
+    font-size: 1rem;
+  }
+  
+  div.town {
+    border: none;
+  }
+  
+  .tilde {
+  display: none;
+}
+  
   /* Grid CSS */
   
   .gallery {
