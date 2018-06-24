@@ -96,6 +96,7 @@
   
   #weather-story article {
     font-size: 1rem;
+    padding-top: 2rem;
   }
   
   article.towndata {
