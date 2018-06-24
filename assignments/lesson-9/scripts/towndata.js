@@ -3,19 +3,15 @@ var dataURL =  "https://byui-cit230.github.io/weather/data/towndata.json";
 data.open('GET', dataURL, true);
 data.send();
 
-  data.onload = function() {
 
+  data.onload = function() {
   
-  var townData = JSON.parse(data.responseText);
+    var townData = JSON.parse(data.responseText);
   
-    
-  
-  for (i = 0; i < townData.towns.length; i++) {
+    for (i = 0; i < townData.towns.length; i++) {
     console.log(townData);
     
-    if ( townData.towns[i].name == "Franklin" || townData.towns[i].name == "Greenville" || townData.towns[i].name == "Springfield"){
-    
-      
+      if ( townData.towns[i].name == "Franklin" || townData.towns[i].name == "Greenville" || townData.towns[i].name == "Springfield"){
       
       
       document.getElementById(townData.towns[i].name + "-motto").innerHTML = townData.towns[i].motto;
