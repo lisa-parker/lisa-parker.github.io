@@ -99,19 +99,17 @@
   }
   
   article.towndata {
-    width: 80%;
-    height: auto;
-    padding: 1rem;
+    width: 50%;
+    padding: 2rem 1rem 1rem 1rem;
     font-size: 1.05rem;
     text-align: center;
     margin-right: 1rem;
-    flex: 1 1 auto;
+    flex: 1 1 100%;
   }
   
   picture.townimg {
-    width: 100%;
-    height: auto;
-    flex: 1 1 auto;
+    width: 90%;
+    flex: 1 1 100%;
   }
   
   #weather-story article, #greenville article {

@@ -10,11 +10,11 @@ weatherRequest.onload = function() {
   console.log(weatherData);
   
   
-  document.getElementById('current-temp').innerHTML = weatherData.main.temp;
+  document.getElementById('current-temp').innerHTML = Math.round(weatherData.main.temp);
   
   document.getElementById('current-conditions').innerHTML = weatherData.weather[0].description;
   
-  document.getElementById('wind').innerHTML = weatherData.wind.speed;
+  document.getElementById('wind').innerHTML = Math.round(weatherData.wind.speed);
   
   let imagesrc = 'https://openweathermap.org/img/w/' + weatherData.weather[0].icon + '.png';
   
