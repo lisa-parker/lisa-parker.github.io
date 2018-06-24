@@ -30,7 +30,7 @@
   /*-------- Home Large --------*/
   
   
-   #weather-story {
+  #weather-story {
     display: flex;
     justify-content: center;
     align-content: center; 
@@ -54,7 +54,7 @@
   .townsections .towndata {
    border: none;
    background-color: #FBFBFB;
-}
+  }
   
   #weather-story article {
     padding-left: 1rem;
@@ -76,10 +76,6 @@
     margin: 0;
     width: 100%;
   }
-  
-  .tilde {
-  display: none;
-}
   
   
   /* ------- Grid CSS ------- */

@@ -88,6 +88,7 @@
   
   /* ------- Home page medium -------*/
   
+  
  div.town {
    display: flex;
    justify-content: space-between;
@@ -116,7 +117,7 @@
   #weather-story article, #greenville article {
   margin-left: 1rem;
   margin-right: 0;
-}
+  }
   
   .towndata > h2 {
     text-align: center;
@@ -128,15 +129,7 @@
   
   div.reverse {
     flex-direction: row-reverse;
-  }
-
-  .tilde {
-    display: inline;
-    font-size: 6rem;
-    margin: 0;
-    padding: 0;
-}
-  
+  } 
   
   /* Grid CSS */
   

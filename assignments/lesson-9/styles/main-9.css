@@ -219,6 +219,7 @@ footer .footer-bar {
 
 /* ------ Home page ------ */
 
+
 #weather-story article {
   padding: 1rem;
 }
@@ -265,7 +266,6 @@ div.townsections {
   text-align: justify;
 }
 
-
 .towndata > h2 {
   margin: 0;
   text-align: center;
@@ -274,7 +274,6 @@ div.townsections {
 .towndata > p {
   text-align: center;
 }
-
 
  strong.bold {
   font-weight: 700;
@@ -291,6 +290,7 @@ footer p a {
 footer p a:hover {
   font-weight: 700; 
 }
+
 
 /* ------- Grid Gallery -------- */
 
