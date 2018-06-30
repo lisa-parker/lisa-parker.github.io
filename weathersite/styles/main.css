@@ -153,6 +153,10 @@ main figure img {
 
 .highlow p {margin: .5rem 0 1.25rem 0;}
 
+p#low {
+  padding-left: .45rem;
+}
+
 .conditions p {margin-bottom: 1.25rem;}
 
 
@@ -202,6 +206,10 @@ footer {
   text-align: center;
   color: #FBFBFB;
 }
+
+footer section.contact p a {
+  color: #FBFBFB;
+}
  
 footer .contact {
   background-color: #26333E;
@@ -210,7 +218,7 @@ footer .contact {
 }
 
 footer .footer-bar {
-  line-height: 21px;
+  line-height: 24px;
 }
 
 #copy {
@@ -219,7 +227,7 @@ footer .footer-bar {
 }
 
 p.footer-bar {
-  padding-top: .5rem;
+  padding-top: .25rem;
 }
 
 
@@ -308,7 +316,7 @@ footer p a:hover {
 }
 
 figcaption {
-  font-size: 12px;
+  font-size: 14px;
   padding-bottom: .75rem;
 }
 
