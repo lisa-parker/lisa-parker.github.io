@@ -32,18 +32,18 @@
 
 button#LeftToRight {
 	position: absolute;
-	top: 22px;
+	top: 18px;
 	left: 11px;
-	padding: 10px;
-    font-size: 1.5rem;
+	padding: .5rem;
+    font-size: 1.75rem;
 }
 
 button#RightToLeft {
 	position: absolute;
-	top: 78px;
+	top: 82px;
 	left: 11px;
-	padding: 10px;
-    font-size: 1.5rem;
+	padding: .5rem;
+    font-size: 1.75rem;
 }
 
 .box2	{
