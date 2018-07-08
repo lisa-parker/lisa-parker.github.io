@@ -4,7 +4,7 @@ Introduction to jQuery (Learnable) | August 2014 */
 /*@import url(http://fonts.googleapis.com/css?family=Raleway);*/
 
 * {
-	font-family:sans-serif;
+    font-family:sans-serif;
 	margin:0px;	
 }
 
@@ -64,11 +64,12 @@ body {
 	width:100px;
 	text-align:center;
 	padding:6px;
-	font-size:15px;
 	float:left;
 }
 
 .navigation a {
+    font-weight: 400;
+    font-size:15px;
 	color:#000;
 	text-decoration:none;
 	font-family: 'Raleway', sans-serif;
@@ -271,7 +272,7 @@ body {
 	color:inherit;
 }
 
-nav {
+.nav {
     padding: 0 1rem 0 1rem;
     text-align: center;
     font-size: 15px;
@@ -280,12 +281,12 @@ nav {
     margin: 1px 3px 3px 3px;
 }
 
- nav > ul {
+.nav > ul {
     list-style-type: none;
     padding: 0;
 }
 
-nav ul li a {
+.nav ul li a {
     text-decoration: none;
     color:rgba(0,0,0,0.8);
     display: block;
@@ -293,13 +294,13 @@ nav ul li a {
     font-family: 'Raleway', sans-serif;
 }
 
-nav ul#footer-nav{
+.nav ul#footer-nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
   
-  nav ul li {
+.nav ul li {
     text-align: center;
 }
 
