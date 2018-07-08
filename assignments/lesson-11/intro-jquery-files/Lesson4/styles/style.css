@@ -292,6 +292,7 @@ body {
     display: block;
     padding: 1.25rem;
     font-family: 'Raleway', sans-serif;
+    text-shadow:0px 0px 1px rgba(0,0,0,0.3);
 }
 
 .nav ul#footer-nav{
