@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events&dash; Cycle the Continental Divide &vert; The Mountain Spoke</title>
+    <meta name="description" content="The Mountain Spoke presents our incredible annual event, Cycle the Continental Divide. Early Bird and Group Rates Available! Call Now for Reservations.">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">  
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css"> 
+  </head>
+  <body>
+    
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/mtspoke-logo.png" alt="Logo for The Mountain Spoke bicycle shop."></a>
+      </div>
+      <div class="title">
+        <h1>The Mountain Spoke</h1>
+        <div class="subhead">Come along for the ride!</div>
+      </div>
+    </header>
+    
+    <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="bicycles.html">Bicycles</a></li>
+        <li><a href="repairs.html">Repairs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>		
+    </nav>
+    
+    <main>
+      <picture>
+        <img id="hero" src="images/river-trail-992x400.jpg" alt="Photo of bicyclist riding a mountain trial.">
+      </picture>
+      <section class="info">
+        <h2>Cycle the Continental Divide!</h2>
+        <p>Annual Tour &ndash; July 8-12 </p>
+        <p>305 Miles of Scenic Mountain Views</p>
+      </section>
+      <section>
+        <h3>The Continental Divide Trail</h3>
+          <p class="about info">Every summer, The Mountain Spoke sponsors the annual Cycle our own Continental Divide event, which runs for 5 days and 4 nights. Our tour runs for 305 miles along the some of the most scenic sections of the Continental Divide Trail (CDT). The CDT is the longest bicycling trail in the world. It stretches 3,100 miles along the spine of the Great Continental Divide from Canada to Mexico and provides access to some of the most wild and scenic places left in the world (Continental Divide Trail.org). We will be traveling the trail from Helena to Roosville (see map below). Come join us for the ride of a life-time on the wild and scenic CDT. </p>
+      </section>
+      <section class="events-space">
+        <h3>Tour Information and Details</h3>
+          <p class="about info">Evening meals and daily snacks are provided along the trail, as well as unlimited water refills. There are two rest stops along the way where food and supplies can be obtained. Please be sure to plan ahead for any additional needs you may have. Temperatures can be very chilly overnight so plan accordingly. We have a trained medical technician on staff and first aid supplies on hand for emergencies. In addition we offer a free trail guide and suggested supplies list when you register for our Cycle the Continental Divid tour. Please fill out the registrations form and we will send your copy to you right away. We'll see you on the trail!</p>
+        <div class="group-details">
+          <p class="details-events"><strong>Cost:</strong> $445/person</p>
+          <p class="details-events"><strong>Time:</strong> 5 days and 4 nights</p>
+          <p class="details-events"><strong>Location:</strong> Helena, Montana</p>
+          <p class="details-events"><strong>Skill Level:</strong> Intermediate &dash; Advanced</p>
+        </div>
+      </section>  
+      <section class="cdt-map">
+        <h3>Contintental Divide Trail</h3>
+        <img src="images/great-divide-mountain-bike-route.gif" alt="Map of the Continental Divide Trail.">
+      </section>
+      <h2 class="storm">Registration</h2>
+      <p class="details-events space-3">&ast;Please fill out all required fields.</p>
+      
+      <form method="get" action="event-thank-you.html">
+        <fieldset>
+          <legend>Registration Information</legend>
+          <div class="event-box">
+            <div class="event-form">
+              <label class="above"><span class="green">&ast;&thinsp;</span>Full Name <input type="text" name="name" pattern="[A-Za-z ]{5,}" placeholder="First Last" title="Please Enter Your Full Name" required></label>
+          
+              <label class="above"><span class="green">&ast;&thinsp;</span>Phone <input type="tel" name="phone" placeholder="1234567890" title="Please Enter Your Phone Number" required></label>
+          
+              <label class="above"><span class="green">&ast;&thinsp;</span>Email <input type="email" name="email" placeholder="someone@gmail.com" title="Email is Optional" required></label>
+          
+              <label class="above date"><span class="green">&ast;&thinsp;</span>Date of Birth<input type="date" name="birth-date" required></label>
+          
+              <label class="above">Comments<textarea name="comments"></textarea></label>
+          
+              <p><span class="green">&ast;&thinsp;</span>Required Fields</p>
+            </div>
+            <div class="event-logo">
+              <img src="images/mtspoke-logo-3.png">
+              <h1>The Mountain Spoke</h1>
+              <p>Come along for the ride!</p>
+            </div>
+          </div>
+        </fieldset>
+        <input class="button" type="submit" name="submit" value="Send In My Registration">
+      </form>
+    </main>
+    
+    <footer>
+      <div class="contact">
+       <h4><a href="contact.html">The Mountain Spoke</a></h4>
+        <p>3950 Valley Commons Drive</p>
+        <p>Bozeman, MT 93501</p>
+        <p><span>505-977-9779</span></p>
+        <p class="space">TheMountainSpoke<span>@</span>gmail.com</p>
+      </div>
+      <div class="copy">
+        <p>
+        <p>&copy; 2018 &vert; All rights Reserved &vert; The Mountain Spoke</p>
+      </div>
+    </footer>
+    
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/wayfinding.js"></script>
+  </body>
+</html>

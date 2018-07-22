@@ -98,7 +98,7 @@ nav ul li a:hover {
 
 nav ul li.active {
   background: linear-gradient(to bottom, #909199 0%, #6B6E7A 100%);
-  color: #FBFBFB;
+  //color: #FBFBFB;
 }
 
 main {padding: .75rem;}

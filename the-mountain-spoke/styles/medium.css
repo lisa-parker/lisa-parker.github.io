@@ -1,0 +1,150 @@
+@media only screen and (min-width: 37.5em) {
+  
+  header h1 {
+    font-size: 1.75rem;
+  }
+  
+  header .subhead {
+    font-size: 1.25rem;
+  }
+  
+  nav button { display: none; } 
+  
+  .hide {
+    display: block;
+  }
+  
+  nav ul#primaryNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav ul li {
+    flex: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.85rem;
+    margin: 2rem 0 2rem 0;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  section.info p {
+    font-size: 1.5rem;
+    margin: .75rem;
+    padding: 0;
+}
+  
+  section.info {
+    margin-bottom: 3rem;
+  }
+  
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 3.25rem;
+  }
+  
+  .gallery figure {
+    margin: .5rem 1.25rem;
+}
+  
+  footer h4 {
+    font-size: 1.5rem;
+  }
+  
+  /*------Tours-----*/
+  
+  article.flex {
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+   div.tour-info{
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  
+  div.tour-image {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  
+  article.flex img {
+    padding-left: 1rem;
+  }
+  
+  article.reverse {
+    flex-flow: row-reverse;
+  } 
+  
+  article.reverse img {
+   padding-left: 0;
+    padding-right: 1rem;
+    
+  }
+  
+  /*------Events------*/
+  
+  .details-events {
+  font-size: 1.25rem;
+}
+  
+  div.event-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  div.event-form {
+    flex: 1 1 auto;
+    width: 58%;
+    height: auto;
+  }
+  
+  div.event-logo {
+    flex: 1 1 auto;
+    width: 42%;
+    height: auto;
+  }
+  
+  div.event-logo img {
+    padding: .5rem;
+  }
+  
+  /*-----Bicycles-----*/
+  
+  
+  
+  /*-----Repairs-----*/
+  
+  table {
+    font-size: 1.25rem;
+  }
+  
+  td, th {
+  padding: .75rem;
+}
+  
+  .repair-images {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 3.25rem;
+  }
+  
+  .repair-images figure {
+    margin: 1.25rem 1.25rem;
+}
+  
+  #none {
+    display: none;
+  }
+  
+}

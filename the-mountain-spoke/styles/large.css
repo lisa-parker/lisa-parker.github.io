@@ -1,0 +1,63 @@
+@media only screen and (min-width: 64em) {
+  
+header h1 {
+    font-size: 2.25rem;
+  }
+  
+  header .subhead {
+    font-size: 1.45rem;
+  }
+  
+  h2 {
+    font-size: 2.25rem;
+    margin: 2.5rem 0 2.5rem 0;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    margin-top: 3.5rem;
+  }
+  
+  section.info p {
+  font-size: 1.75rem;
+  margin: 1rem;
+  padding: 0;
+}
+  
+  section.info {
+    margin-bottom: 4rem;
+  }
+  
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0;
+  }
+   
+  
+  /*-----Events-----*/
+  
+  .details-events {
+  font-size: 1.35rem;
+}
+  
+  div.event-logo {
+    margin: 0 10rem;
+  }
+
+  /*----Repairs----*/
+  
+  
+  .repair-images {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+  }
+  
+  #none {
+    display: block;
+  }
+  
+  
+}
+
