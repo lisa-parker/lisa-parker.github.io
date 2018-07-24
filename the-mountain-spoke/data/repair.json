@@ -1,12 +1,12 @@
 {
 "repairs" : 
     {
-      "flatTire": 21.95,
-      "brakeRepair": 69.95,
-      "brakeMaintenance": 29.95,
-      "gearRepair": 74.95,
-      "gearMaintenance": 34.95,
-      "chainRepair": 59.95,
-      "chainMaintenance": 32.95,
+    "flatTire": 21.95,
+    "brakeRepair": 69.95,
+    "brakeMaintenance": 29.95,
+    "gearRepair": 74.95,
+    "gearMaintenance": 34.95,
+    "chainRepair": 59.95,
+    "chainMaintenance": 32.95
     }
 }
