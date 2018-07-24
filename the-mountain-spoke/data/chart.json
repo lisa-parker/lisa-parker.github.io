@@ -39,11 +39,7 @@
     "name": "Cable",
     "repair": 21.95,
     "maintain": 11.95
-  },
-    
-  {
-    "name": "Tune-up",
-    "maintain": 89.95
   }
+    
  ]
 }
