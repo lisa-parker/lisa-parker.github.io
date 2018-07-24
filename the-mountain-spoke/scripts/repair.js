@@ -1,24 +1,25 @@
+
+  
 var data = new XMLHttpRequest();
-var dataURL =  "https://lisa-parker.github.io/the-mountain-spoke/data/chart.json";
+var dataURL =  "";
 data.open('GET', dataURL, true);
 data.send();
 
 
   data.onload = function() {
   
-    var repairData = JSON.parse(data.responseText);
+    var priceData = JSON.parse(data.responseText);
   
-    for (i = 0; i < repairData.repairs.length; i++) {
-      console.log(repairData);
+    for (i = 0; i < priceData.towns.length; i++) {
+      console.log(priceData);
     
-      if ( repairData.repairs[i].name == "Tires" || repairData.repairs[i].name == "Brakes" || repairData.repairs[i].name == "Seat" || repairData.repairs[i].name == "Gears" || repairData.repairs[i].name == "Spokes" || repairData.repairs[i].name == "Chain" || repairData.repairs[i].name == "Cable" )
-      {
       
+      document.getElementById(priceData.repairs[i].name + "-name").innerHTML = priceData.repairs[i].name;
       
-      document.getElementById(repairData.repairs[i].name + "-name").innerHTML = repairData.repairs[i].name;
-      document.getElementById(repairData.repairs[i].name + "-repair").innerHTML = repairData.repairs[i].repair;
-      document.getElementById(repairData.repairs[i].name + "-maintain").innerHTML = repairData.repairs[i].maintain;
+      document.getElementById(priceData.repairs[i].name + "-repairs").innerHTML = priceData.repairs[i].repair;
+      
+      document.getElementById(priceData.repairs[i].name + "-maintain").innerHTML = priceData.repairs[i].maintain;
+      
     }
   
-  }
   }
