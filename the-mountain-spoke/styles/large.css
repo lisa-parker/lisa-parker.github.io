@@ -1,62 +1,88 @@
 @media only screen and (min-width: 64em) {
   
 header h1 {
-    font-size: 2.25rem;
-  }
-  
-  header .subhead {
-    font-size: 1.45rem;
-  }
-  
-  h2 {
-    font-size: 2.25rem;
-    margin: 2.5rem 0 2.5rem 0;
-  }
-  
-  h3 {
-    font-size: 1.75rem;
-    margin-top: 3.5rem;
-  }
-  
-  section.info p {
-  font-size: 1.75rem;
-  margin: 1rem;
-  padding: 0;
+  font-size: 2.25rem;
 }
   
-  section.info {
-    margin-bottom: 4rem;
-  }
+header .subhead {
+  font-size: 1.45rem;
+}
   
-  .gallery {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 0;
-  }
+h2 {
+  font-size: 2.25rem;
+  margin: 2.5rem 0 2.5rem 0;
+}
+  
+h3 {
+  font-size: 1.75rem;
+  margin-top: 3.5rem;
+}
+  
+section.info p {
+font-size: 1.75rem;
+margin: 1rem;
+padding: 0;
+}
+  
+section.info {
+  margin-bottom: 4rem;
+}
+  
+.gallery {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 0;
+}
    
   
-  /*-----Events-----*/
+/*-----Events and Contact-----*/
   
-  .details-events {
+.details-events {
   font-size: 1.35rem;
 }
   
-  div.event-logo {
-    margin: 0 10rem;
+div.event-logo {
+  margin: 0 10rem;
+}
+  
+section.bikes {
+    margin: 0 12%;
   }
+  
+section div.dk-blue p{
+  font-size: 1.5rem;
+}
 
-  /*----Repairs----*/
+/*----Repairs----*/
+
   
+table {
+  font-size: 1.35rem;
+  padding: 2rem;
+}
+ 
+div.repair-table {
+  margin: 4rem;  
+}
   
-  .repair-images {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 0;
+thead td {
+  font-size: 1.75rem;
+  padding: 1.25rem;
   }
   
-  #none {
-    display: block;
-  }
+tbody td, thead th {
+  padding: 1rem 1.75rem;
+}
+  
+.repair-images {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 0;
+}
+  
+#none {
+  display: block;
+}
   
   
 }

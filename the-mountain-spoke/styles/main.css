@@ -85,7 +85,7 @@ nav ul li {
 }
 
 nav ul li.active {
-  background: linear-gradient(to bottom right, #3B4559, #7C808F);
+  background-color: #505D70;
 }
 
 nav ul li.active a {
@@ -103,7 +103,7 @@ nav ul li a {
 
 nav ul li a:hover {
   background: linear-gradient(to bottom, #C6DD72 0%, #7FB95A 100%);
-  font-weight: 500;
+  font-weight: 600;
   color: #071F34;
 }
 
@@ -120,7 +120,7 @@ h2 {
   font-size: 1.4rem;
   text-align: center;
   color: #1A3148;
-  letter-spacing: .2px;
+  letter-spacing: .1px;
 }
 
 h3 {
@@ -135,10 +135,10 @@ h3 {
 
 section.info p {
   text-align: center;
-  font-size: 1.12rem;
+  font-size: 1.15rem;
   margin: .5rem 0;
   padding: 0;
-  color: #4D953B;
+  color: #438837;
 }
 
 p.info {
@@ -211,7 +211,7 @@ footer a:hover {
 }
 
 footer p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #FDFDFD;
   margin: 0.5rem 0;
   letter-spacing: .75px;
@@ -237,7 +237,7 @@ footer span {
 }
 
 .link {
-  color: #4D953B;
+  color: #438837;
   font-weight: 600;
 }
 
@@ -256,7 +256,7 @@ footer span {
 }
 
 .group-details {
-  margin: 3rem 0 1rem 0;
+  margin: 1rem 0;
 }
 
 strong {
@@ -268,7 +268,7 @@ small {
   font-size: 1.2rem;
   text-align: center;
   margin: 1.5rem 0 1rem 0;
-  color: #4D9C3F;
+  color: #438837;
 }
  
 section.flex {
@@ -299,7 +299,7 @@ article h3 {
 
 
 .details-events {
-  color: #4D9C3F;
+  color: #438837;
   font-size: 1.1rem;
   margin: .4rem 0;
   text-align: center;
@@ -341,12 +341,13 @@ form fieldset {
   
 form legend {
   background-color: #071F34;
-  font-size: 1.25rem;
+  font-size: 1.33rem;
   padding: 1rem;
   margin-bottom: .75rem;
   font-family: 'Arvo', serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #C6DD72;
+  letter-spacing: .4px;
 }
 
 form label.above input, form label.above textarea {
@@ -369,7 +370,7 @@ form label.above input:required:valid {
 }
 
 .green {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   color: #C6DD72;
   font-weight: 700;
 }
@@ -407,20 +408,25 @@ div.event-logo p {
   }
 
 div.event-logo h1 {
-  font-size: 1.225rem;
+  font-size: 1.25rem;
   font-family: 'Arvo', serif;
   text-shadow: 2px 2px 4px #1A3148;
   margin: 0 0 .25rem 0;
   letter-spacing: .4px;
 }
 
-div.dk-blue p{
+section div.dk-blue p{
   color: #071F34;
+  font-size: 1.25rem;
+}
+
+div.dk-blue {
+  padding-top: 0;
 }
 
 .lt-green {
-  color: #4D9C3F;
-  font-weight: 500;
+  color: #438837;
+  font-weight: 700;
 }
 
 section.contact {
@@ -428,7 +434,12 @@ section.contact {
 }
 
 div.map {
-  background: #071F34;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 37.5rem;
+  background: #3B4559;
+  margin-bottom: 3rem;
 }
 
 iframe {
@@ -436,14 +447,17 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 section.address {
   margin: 2rem 0 2rem 0;
 }
 
+section.address h
+
 /*-----Bicycles-----*/
+
 
 div.bike-info {
   background-color: #D3D3D8;
@@ -487,19 +501,61 @@ div.bike-name h3 {
 
 /*-----Repair-----*/
 
+
 table {
   max-width: 100%;
   margin: 0 auto;
   line-height: 28px;
-  font-size: 1.05rem;
+  font-size: 1rem;
+  color: #FDFDFD;
+  border: 2px solid white;
   }
 
- td, th {
-  padding: .5rem;
+table, th, td, caption {
+  border: .1rem solid  #FDFDFD;
+  border-collapse: collapse;
 }
 
-.repair-table {
+tbody td, thead th {
+  padding: .5rem 1rem;
+}
+
+thead th {
+  letter-spacing: .25px;
+  background-color: #C4C4CC;
+  color: #071F34;
+  text-align: left;
+}
+
+thead td {
+  font-weight: 700;
+  color: #071F34;
+  font-family: 'Arvo', serif;
+  font-size: 1.25rem;
+  text-align: center;
+  padding: .75rem;
+  color: #071F34;
+  background: #FDFDFD;
+  font-family: 'Arvo', serif;
+}
+
+tbody td {
+  background-color: #3B4559;
+}
+
+tfoot td{
+  text-align: center;
+  padding: .5rem;
+  color: #071F34;
+  background-color: #FDFDFD;
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+div.repair-table {
   margin: 3rem 0;
+  background: linear-gradient(to bottom, #7C808F 0%, #3B4559 100%);
+  padding: 5%;
 }
 
 .repair-images {
@@ -512,6 +568,12 @@ table {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.m-green {
+  color: #A5C330;
+  font-size: 1.35rem;
+  font-weight: 700;
 }
 
 

@@ -88,10 +88,9 @@
   article.reverse img {
    padding-left: 0;
     padding-right: 1rem;
-    
   }
   
-  /*------Events------*/
+  /*------Events & Contact------*/
   
   .details-events {
   font-size: 1.25rem;
@@ -119,32 +118,66 @@
     padding: .5rem;
   }
   
+  div.events-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  section div.dk-blue p{
+  font-size: 1.35rem;
+}
+  
+  section.cdt-map {
+    padding: 1rem;
+  }
+  
+  iframe {
+  padding: 2rem;
+}
+  
   /*-----Bicycles-----*/
   
-  
+  section.bikes {
+    margin: 0 8%;
+  }
   
   /*-----Repairs-----*/
   
-  table {
-    font-size: 1.25rem;
+table {
+  font-size: 1.25rem;
   }
   
-  td, th {
-  padding: .75rem;
+div.repair-table {
+  margin: 3rem;
 }
   
-  .repair-images {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    margin: 3.25rem;
+thead td {
+  font-size: 1.6rem;
+  padding: 1rem;
   }
   
-  .repair-images figure {
-    margin: 1.25rem 1.25rem;
+tfoot td {
+  padding 1rem;
+  font-size: 1rem;
+  }
+  
+tbody td, thead th {
+  padding: .75rem 1.5rem;
 }
   
-  #none {
-    display: none;
-  }
+.repair-images {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin: 3.25rem;
+}
+  
+.repair-images figure {
+  margin: 1.25rem 1.25rem;
+}
+  
+#none {
+  display: none;
+}
   
 }
