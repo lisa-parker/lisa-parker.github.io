@@ -1,5 +1,5 @@
 let data = new XMLHttpRequest();
-let dataURL =  "https://lisa-parker.github.io/the-mountain-spoke/repairdata.json";
+let dataURL =  "https://lisa-parker.github.io/the-mountain-spoke/data/repairdata.json";
 data.open('GET', dataURL, true);
 data.send();
 
