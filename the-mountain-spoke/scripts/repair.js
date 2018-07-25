@@ -11,7 +11,7 @@ data.onload = function() {
   let priceData = JSON.parse(data.responseText);
   
     for (i = 0; i < priceData.repairs.length; i++) {
-      //console.log(priceData);
+      console.log(priceData);
     
       
       document.getElementById(priceData.repairs[i].name + "-name").innerHTML = priceData.repairs[i].name;

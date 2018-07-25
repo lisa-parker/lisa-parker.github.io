@@ -1,6 +1,5 @@
 {
   "repairs" : [
-    
   {
     "name": "Tires",
     "repair": 21.95,
@@ -11,42 +10,30 @@
     "repair": 49.95,
     "maintain": 24.95
   },
-
   {
     "name": "Seat",
     "repair": 16.95,
     "maintain": 5.96
   },
-
   {
     "name": "Gears",
     "repair": 68.95,
     "maintain": 21.9
   },
-    
   {
     "name": "Spokes",
     "repair": 8.95,
     "maintain": 5.95
   },
-    
   {
     "name": "Chain",
     "repair": 54.95,
     "maintain": 12.95
   },
-  
   {
     "name": "Cable",
     "repair": 21.95,
     "maintain": 11.95
-  },
-
-  {
-    "name": "Tune-up",
-    "repair": null,
-    "maintain": 11.95
   }
-    
  ]
 }
