@@ -149,12 +149,16 @@ table {
   }
   
 div.repair-table {
-  margin: 3rem;
+  margin: 3.5rem 0;
 }
   
 thead td {
   font-size: 1.6rem;
-  padding: 1rem;
+  padding: 1rem 3rem;
+  }
+  
+thead th {
+  font-size: 1.4rem;
   }
   
 tfoot td {
@@ -163,7 +167,7 @@ tfoot td {
   }
   
 tbody td, thead th {
-  padding: .75rem 1.5rem;
+  padding: .75rem 1.75rem;
 }
   
 .repair-images {

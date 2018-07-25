@@ -18,7 +18,7 @@
   {
     "name": "Gears",
     "repair": 68.95,
-    "maintain": 21.9
+    "maintain": 21.95
   },
   {
     "name": "Spokes",
@@ -38,7 +38,7 @@
   {
     "name": "Tune-up",
     "repair": null,
-    "maintain": 89.95
+    "maintain": 79.95
   }
  ]   
 }

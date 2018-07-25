@@ -67,7 +67,11 @@ div.repair-table {
   
 thead td {
   font-size: 1.75rem;
-  padding: 1.25rem;
+  padding: 1.25rem 4rem;
+  }
+  
+thead th {
+  font-size: 1.5rem;
   }
   
 tbody td, thead th {
