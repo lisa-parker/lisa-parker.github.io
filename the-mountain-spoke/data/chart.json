@@ -37,8 +37,8 @@
   },
   {
     "name": "Tune-up",
-    "repair": "Full Service",
-    "maintain": 89.95
+    "repair": 89,
+    "maintain": .95
   }
  ]
 }
