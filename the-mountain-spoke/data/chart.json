@@ -37,8 +37,8 @@
   },
   {
     "name": "Tune-up",
-    "repair": "&#36;",
+    "repair": null,
     "maintain": 89.95
   }
- ]
+ ]   
 }
