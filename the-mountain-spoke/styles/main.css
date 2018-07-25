@@ -508,7 +508,7 @@ table {
   max-width: 100%;
   margin: 0 auto;
   line-height: 28px;
-  font-size: .8rem;
+  font-size: .9rem;
   color: #FDFDFD;
   }
 
@@ -522,6 +522,7 @@ tbody td, thead th {
 }
 
 thead th {
+  font-size: 1rem;
   letter-spacing: .25px;
   background-color: #E2E2E5;
   color: #071F34;
