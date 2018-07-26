@@ -211,7 +211,7 @@ footer a:hover {
 }
 
 footer p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #FDFDFD;
   margin: 0.5rem 0;
   letter-spacing: .75px;
@@ -447,38 +447,38 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 section.address {
   margin: 2rem 0 2rem 0;
 }
 
-section.address h
 
 /*-----Bicycles-----*/
 
-
-div.bike-info {
+section.bikes {
   background-color: #D3D3D8;
   box-shadow: 6px 6px 16px #8C8E9D;
-  padding: 1rem 1rem;
-  text-align: left;
-  margin: 0 0 2rem 0;
-  line-height: 24px;
-  font-size: 1.1rem;
+}
+
+div.bike-info {
+  padding: 0 1rem 1rem 1rem;
+}
+
+ div.bike-info p {
+  font-size: 1.125rem;
+  line-height: 24px; 
 }
 
 div.bike-info p.bullet {
   line-height: 28px;
-}
-
-div.bike-info p {
-  margin-top: .25rem;
+  padding: 0 1.5rem;
 }
 
 div.bike-info h4 {
-  margin: 2rem 0 0 0;
+  font-size: 1.125rem;
+  margin: 0;
 }
 
 div.bike-image img {
