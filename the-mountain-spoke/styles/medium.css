@@ -10,9 +10,7 @@
   
   nav button { display: none; } 
   
-  .hide {
-    display: block;
-  }
+  .hide {display: block;}
   
   nav ul#primaryNav {
     display: flex;
@@ -41,9 +39,7 @@
     padding: 0;
 }
   
-  section.info {
-    margin-bottom: 3rem;
-  }
+  section.info { margin-bottom: 3rem; }
   
   .gallery {
     grid-template-columns: 1fr 1fr;
@@ -51,17 +47,11 @@
     margin: 3.25rem;
   }
   
-  .gallery figure {
-    margin: .5rem 1.25rem;
-}
+  .gallery figure { margin: .5rem 1.25rem; }
   
-  footer h4 {
-    font-size: 1.5rem;
-  }
+  footer h4 { font-size: 1.5rem; }
   
-  footer p {
-    font-size: 1.1rem;
-  }
+  footer p { font-size: 1.1rem; }
   
   /*------Tours-----*/
   
@@ -71,7 +61,7 @@
     align-items: center;
   }
   
-   div.tour-info{
+   div.tour-info {
     flex: 1 1 100%;
     width: 100%;
   }
@@ -81,24 +71,18 @@
     width: 100%;
   }
   
-  article.flex img {
-    padding-left: 1rem;
-  }
+  article.flex img { padding-left: 1rem; }
   
-  article.reverse {
-    flex-flow: row-reverse;
-  } 
+  article.reverse { flex-flow: row-reverse; } 
   
   article.reverse img {
-   padding-left: 0;
+    padding-left: 0;
     padding-right: 1rem;
   }
   
   /*------Events & Contact------*/
   
-  .details-events {
-  font-size: 1.25rem;
-}
+  .details-events { font-size: 1.25rem; }
   
   div.event-box {
     display: flex;
@@ -118,9 +102,7 @@
     height: auto;
   }
   
-  div.event-logo img {
-    padding: .5rem;
-  }
+  div.event-logo img { padding: .5rem; }
   
   div.events-images {
     display: flex;
@@ -128,51 +110,44 @@
     align-items: center;
   }
   
-  section div.dk-blue p{
-  font-size: 1.35rem;
-}
+  section div.dk-blue p { font-size: 1.35rem; }
   
-  section.cdt-map {
-    padding: 1rem;
+  section.cdt-map { padding: 1rem; }
+  
+  iframe { padding: 1.25rem; }
+  
+/*-----Bicycles-----*/
+  
+  .accordion dt { 
+    font-size: 1.35rem; 
+    padding: 1.15rem;
   }
   
-  iframe {
-  padding: 1.25rem;
-}
+  .accordion dd { padding: 1.5rem; }
   
-  /*-----Bicycles-----*/
+  .accordion:first-of-type { margin-top: 1rem; }
   
-  section.bikes {
-    margin: 0 8%;
-  }
+  .accordion:last-of-type { margin-bottom: 2.5rem; }
   
-  /*-----Repairs-----*/
+/*-----Repairs-----*/
   
-table {
-  font-size: 1.25rem;
-  }
+  table { font-size: 1.25rem; }
   
-div.repair-table {
-  margin: 3.5rem 0;
-}
+  div.repair-table { margin: 3.5rem 0; }
   
-thead td {
-  font-size: 1.6rem;
-  padding: 1rem 3rem;
-  }
+  thead td {
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    }
   
-thead th {
-  font-size: 1.4rem;
-  }
+thead th { font-size: 1.4rem; }
   
 tfoot td {
-  padding 1rem;
+  padding: 1rem;
   font-size: 1rem;
   }
   
-tbody td, thead th {
-  padding: .75rem 1.75rem;
-}
+tbody td, thead th { padding: .75rem 1.75rem; }
   
 .repair-images {
   grid-template-columns: 1fr 1fr;
@@ -180,12 +155,8 @@ tbody td, thead th {
   margin: 3.25rem;
 }
   
-.repair-images figure {
-  margin: 1.25rem 1.25rem;
-}
+.repair-images figure { margin: 1.25rem 1.25rem; }
   
-#none {
-  display: none;
-}
+#none { display: none; }
   
 }

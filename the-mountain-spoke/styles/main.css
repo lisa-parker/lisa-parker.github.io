@@ -1,4 +1,4 @@
-* { box-sizing: border-box;} 
+* { box-sizing: border-box; } 
 
 body {
   font-size: 16px;
@@ -78,15 +78,11 @@ nav ul {
   padding: 0;
 }
 
-.hide {display: none;}
+.hide { display: none; }
 
-nav ul li {
-  text-align: right;
-}
+nav ul li { text-align: right; }
 
-nav ul li.active {
-  background-color: #505D70;
-}
+nav ul li.active { background-color: #505D70; }
 
 nav ul li.active a {
   color: #FDFDFD;
@@ -107,7 +103,7 @@ nav ul li a:hover {
   color: #071F34;
 }
 
-main {padding: 1rem;}
+main { padding: 1rem; }
 
 main picture img {
   max-width: 100%;
@@ -143,8 +139,9 @@ section.info p {
 
 p.info {
   background-color: #D3D3D8;
-  box-shadow: 6px 6px 16px #8C8E9D;
-  padding: 1rem 1rem;
+  border: 2px solid #505D70;
+  /*box-shadow: 6px 6px 16px #8C8E9D;*/
+  padding: 1rem;
   text-align: justify;
   margin: 0 0 2rem 0;
   line-height: 24px;
@@ -158,9 +155,7 @@ p.about {
   font-size: 1.125rem;
 }
 
-.gallery {
-  display: grid;
-  }
+.gallery { display: grid; }
 
 .gallery figure img {
   max-width: 100%;
@@ -168,11 +163,12 @@ p.about {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 5px 12px #8C8E9D;
 }
 
 figcaption {
   font-size: 1rem;
-  padding-top: .25rem;
+  padding-top: .5rem;
   text-align: center;
   color: #1A3148;
 }
@@ -191,7 +187,7 @@ footer div.contact {
   padding: .75rem 0;
 }
 
-footer h4{
+footer h4 {
   font-size: 1.35rem;
   font-family: 'Arvo', serif;
   font-weight: 700;
@@ -217,15 +213,22 @@ footer p {
   letter-spacing: .75px;
 }
 
-p a {
-  text-decoration: none;
-}
+p a { text-decoration: none; }
 
 footer div.copy {
   color: #C6DD72;
   padding: .75rem 0;
   margin: 0;
   background: linear-gradient(to bottom, #7C808F 0%, #3B4559 100%);
+}
+
+footer div.copy p {
+  padding: .1rem;
+}
+
+a#ref {
+  font-size: 1.15rem;
+  font-weight: 600
 }
 
 footer p.space {
@@ -244,7 +247,6 @@ footer span {
 .link:hover {
   font-weight: 900;
 }
-
 
 /*---- Tours ----*/
 
@@ -291,9 +293,7 @@ div.tour-image img {
   margin-right: auto;
 }
 
-article h3 {
-  margin-top: 1.5rem;
-}
+article h3 { margin-top: 1.5rem; }
 
 /*-----events and contact-----*/
 
@@ -319,15 +319,12 @@ p.space-2 {
   margin-right: auto;
   max-width: 100%;
   margin-bottom: 3rem;
+  box-shadow: 6px 6px 16px #8C8E9D;
 }
 
-section.events-space {
-  margin-top: 3.5rem;
-}
+section.events-space { margin-top: 3.5rem; }
 
-form {
-  max-width: 100%;
-}
+form { max-width: 100%; }
 
 form fieldset {
   background: linear-gradient(to bottom, #7C808F 0%, #3B4559 100%);
@@ -350,7 +347,8 @@ form legend {
   letter-spacing: .4px;
 }
 
-form label.above input, form label.above textarea {
+form label.above input, 
+form label.above textarea {
   display: block;
   padding: .75rem .2rem;
   width: 100%;
@@ -375,9 +373,7 @@ form label.above input:required:valid {
   font-weight: 700;
 }
 
-form label.above textarea {
-  height: 12rem;
-}
+form label.above textarea { height: 12rem; }
 
 form input.button {
   background: linear-gradient(to bottom, #C6DD72 0%, #7FB95A 100%);
@@ -398,9 +394,7 @@ div.event-logo img {
   padding: 0;
 }
 
-div.event-logo {
-    text-align: center; 
-}
+div.event-logo { text-align: center; }
 
 div.event-logo p {
   font-size: 1rem;
@@ -415,23 +409,19 @@ div.event-logo h1 {
   letter-spacing: .4px;
 }
 
-section div.dk-blue p{
+section div.dk-blue p {
   color: #071F34;
   font-size: 1.25rem;
 }
 
-div.dk-blue {
-  padding-top: 0;
-}
+div.dk-blue { padding-top: 0; }
 
 .lt-green {
   color: #438837;
   font-weight: 700;
 }
 
-section.contact {
-  margin-bottom: 2rem;
-}
+section.contact { margin-bottom: 2rem; }
 
 div.map {
   display: block;
@@ -454,62 +444,93 @@ section.address {
   margin: 2rem 0 2rem 0;
 }
 
+/*-------Bicycles-----*/
 
-/*-----Bicycles-----*/
 
-section.bikes {
+.accordion, 
+.accordion dt,
+.accordion dd,
+.accordion picture {
+  padding: 0;
+  max-width: 54rem; 
+  margin: 0 auto;
+}
+
+.accordion:first-of-type {
+  margin-top: 2rem;
+}
+
+.accordion:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.accordion dt {
+  background: linear-gradient(to bottom, #63687B 0%, #10273C 100%);
+  color: #FDFDFD;
+  font-size: 1.25rem;
+  font-family: 'Arvo', serif;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: .3px;
+  padding: 1rem 0;
+  cursor: pointer;
+  margin-top: .1rem;
+}
+
+.accordion dt:before {
+  content: '+';
+  margin-right: .5rem;
+}
+
+.accordion dt.open {
+  color: #071F34;
+  background: linear-gradient(to bottom, #C6DD72 0%, #7FB95A 100%);
+  font-weight: 700;
+}
+
+.accordion dt.open:before {
+  content: '\2013';
+  margin: .6rem;
+}
+
+.accordion dt:last-of-type {
+  border: none;
+  
+}
+
+.accordion dd {
   background-color: #D3D3D8;
-  box-shadow: 6px 6px 16px #8C8E9D;
-}
-
-div.bike-info {
-  padding: 0 1rem 1rem 1rem;
-}
-
- div.bike-info p {
+  padding: 1rem;
   font-size: 1.125rem;
-  line-height: 24px; 
+  line-height: 24px;
 }
 
-div.bike-info p.bullet {
-  line-height: 28px;
-  padding: 0 1.5rem;
-}
-
-div.bike-info h4 {
-  font-size: 1.125rem;
-  margin: 0;
-}
-
-div.bike-image img {
+.accordion picture img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 100%;
   margin-bottom: 2rem;
+  box-shadow: 6px 6px 16px #8C8E9D;
 }
 
-div.bike-name {
-  background: linear-gradient(to bottom, #C6DD72 0%, #7FB95A 100%);
-}
+dd p.bullet, dd p.para { margin: .25rem 0 1rem 0; }
 
-div.bike-name h3 {
-  padding: 1.25rem 0;
-  margin-bottom: 2rem;
+dd h4 {
+  padding: 0;
+  margin: 0;
 }
 
 /*-----Repair-----*/
 
-div.repair-table {
-  margin: 3rem 0;
-}
+div.repair-table { margin: 3rem 0; }
 
 table {
-  max-width: 100%;
   margin: 0 auto;
   line-height: 28px;
   font-size: .9rem;
   color: #FDFDFD;
+  max-width: 100%;
   }
 
 table, th, td, caption {
@@ -517,12 +538,10 @@ table, th, td, caption {
   border-collapse: collapse;
 }
 
-tbody td, thead th {
-  padding: .25rem .25rem;
-}
+tbody td, thead th { padding: .55rem .5rem; }
 
 thead th {
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: .25px;
   background-color: #E2E2E5;
   color: #071F34;
@@ -535,11 +554,10 @@ thead td {
   font-family: 'Arvo', serif;
   font-size: 1.1rem;
   text-align: center;
-  padding: .75rem .5rem;
+  padding: .75rem .75rem;
   color: #FDFDFD;
   background: linear-gradient(to bottom, #6A7385 0%, #384458 100%);
   font-family: 'Arvo', serif;
-  margin-top:
 }
 
 tbody tr:nth-child(odd) {
@@ -550,7 +568,7 @@ tbody tr:nth-child(even) {
   background-color: #3F4A5F;
 }
 
-tfoot td{
+tfoot td {
   text-align: center;
   padding: .5rem;
   color: #071F34;
@@ -569,6 +587,7 @@ tfoot td{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 6px 6px 16px #8C8E9D;
 }
 
 .s-green {
@@ -583,4 +602,3 @@ tfoot td{
   font-weight: 700;
 }
 
-}

@@ -1,12 +1,8 @@
 @media only screen and (min-width: 64em) {
   
-header h1 {
-  font-size: 2.25rem;
-}
+header h1 { font-size: 2.25rem; }
   
-header .subhead {
-  font-size: 1.45rem;
-}
+header .subhead { font-size: 1.45rem; }
   
 h2 {
   font-size: 2.25rem;
@@ -24,9 +20,7 @@ margin: 1rem;
 padding: 0;
 }
   
-section.info {
-  margin-bottom: 4rem;
-}
+section.info { margin-bottom: 4rem; }
   
 .gallery {
   grid-template-columns: 1fr 1fr 1fr;
@@ -37,46 +31,43 @@ section.info {
   
 /*-----Events and Contact-----*/
   
-.details-events {
-  font-size: 1.35rem;
-}
+.details-events { font-size: 1.35rem; }
   
-div.event-logo {
-  margin: 0 10rem;
-}
+div.event-logo { margin: 0 10rem; }
   
-section.bikes {
-    margin: 0 12%;
+section.bikes { margin: 0 12%; }
+  
+section div.dk-blue p { font-size: 1.5rem; }
+  
+/*-----Bicycle-----*/
+  
+  .accordion dt { 
+    font-size: 1.5rem;
+    padding: 1.25rem;
   }
   
-section div.dk-blue p{
-  font-size: 1.5rem;
-}
+  .accordion:first-of-type { margin-top: 0; }
+  
+   
+  .accordion:last-of-type { margin-bottom: 3rem; }
 
 /*----Repairs----*/
 
   
 table {
   font-size: 1.35rem;
-  padding: 2rem;
 }
  
-div.repair-table {
-  margin: 4rem;  
-}
+div.repair-table { margin: 4rem; }
   
 thead td {
   font-size: 1.75rem;
-  padding: 1.25rem 4rem;
+  padding: 1.25rem 4.5rem;
   }
   
-thead th {
-  font-size: 1.5rem;
-  }
+thead th { font-size: 1.5rem; }
   
-tbody td, thead th {
-  padding: 1rem 1.75rem;
-}
+tbody td, thead th { padding: 1rem 1.75rem; }
   
 .repair-images {
   grid-template-columns: 1fr 1fr 1fr;
@@ -84,10 +75,7 @@ tbody td, thead th {
   margin: 0;
 }
   
-#none {
-  display: block;
-}
-  
-  
+#none { display: block; }
+   
 }
 
