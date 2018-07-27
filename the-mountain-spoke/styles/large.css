@@ -44,7 +44,10 @@ div.tour-image { flex: 1 1 50%; }
   
 .details-events { font-size: 1.35rem; }
   
-div.event-logo { margin: 0 10rem; }
+div.event-logo { 
+  flex: 1 1 auto;
+  margin: 0 10rem; 
+  }
   
 div.event-logo p { font-size: 1.2rem; }
 
@@ -82,7 +85,7 @@ div.repair-table { margin-bottom: 3rem; }
   
 thead td {
   font-size: 1.75rem;
-  padding: 1.25rem 4.5rem;
+  padding: 1.25rem 5rem;
   }
   
 thead th { font-size: 1.5rem; }

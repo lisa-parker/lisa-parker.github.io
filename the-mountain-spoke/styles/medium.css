@@ -99,17 +99,15 @@ div.event-box {
   
 div.event-form {
   flex: 1 1 auto;
-  width: 58%;
+  width: 50%;
   height: auto;
 }
   
 div.event-logo {
-  flex: 1 1 auto;
-  width: 42%;
+  flex: 4 4 auto;
+  width: 50%;
   height: auto;
 }
-  
-div.event-logo img { padding: .5rem; }
   
 div.events-images {
   display: flex;
