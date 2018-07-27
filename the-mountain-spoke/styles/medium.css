@@ -1,156 +1,165 @@
 @media only screen and (min-width: 37.5em) {
   
-  header h1 {
-    font-size: 1.75rem;
-  }
+header h1 { font-size: 1.75rem; }
   
-  header .subhead {
-    font-size: 1.25rem;
-  }
+header .subhead { font-size: 1.25rem; }
   
-  nav button { display: none; } 
+nav button { display: none; } 
   
-  .hide {display: block;}
+.hide { display: block; }
   
-  nav ul#primaryNav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  nav ul li {
-    flex: auto;
-    text-align: center;
-  }
-  
-  h2 {
-    font-size: 1.85rem;
-    margin: 2rem 0 2rem 0;
-  }
-  
-  h3 {
-    font-size: 1.5rem;
-    margin-top: 3rem;
-  }
-  
-  section.info p {
-    font-size: 1.5rem;
-    margin: .75rem;
-    padding: 0;
+nav ul#primaryNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
   
-  section t {
-    margin-bottom: 0;
+nav ul li {
+  flex: auto;
+  text-align: center;
+}
+  
+h2 {
+  font-size: 1.85rem;
+  margin: 2rem 0 2rem 0;
+}
+  
+h3 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+  
+section.info p {
+  font-size: 1.5rem;
+  margin: .75rem;
+  padding: 0;
+}
+  
+p.info {
+  padding: 1.25rem;
   }
   
-  section.info { margin-bottom: 3rem; }
   
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 3.25rem;
-  }
+section t { margin-bottom: 0; }
   
-  .gallery figure { margin: .5rem 1.25rem; }
+section.info { margin-bottom: 3rem; }
   
-  footer h4 { font-size: 1.5rem; }
+.gallery {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 3.25rem;
+}
   
-  footer p { font-size: 1.1rem; }
+.gallery figure { margin: .5rem 1.25rem; }
+  
+footer h4 { font-size: 1.5rem; }
+  
+footer p { font-size: 1.1rem; }
+  
   
   /*------Tours-----*/
   
-  article.flex {
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: center;
-  }
+p.about {
+  margin: 0;
+  padding: 0;
+}
   
-   div.tour-info, div.tour-info-rev {
-    flex: 1 1 105%;
-  }
+small { font-size: 1.1rem; }
   
-  div.tour-image {
-    flex: 1 1 95%;
-  }
+article.flex {
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
   
-  article.reverse { 
-    flex-flow: row-reverse; 
-  } 
+div.tour-info, div.tour-info-rev {flex: 1 1 55%; }
   
- div.tour-info {
-    padding-right: 1rem;
-  }
+div.tour-image { flex: 1 1 45%; }
   
-  div.tour-info-rev {
-    padding-left: 1rem;
-  }
+article.reverse { flex-flow: row-reverse; } 
+  
+div.tour-info { padding-right: 1rem; }
+  
+div.tour-info-rev { padding-left: 1rem; }
+  
+h3.tour-head { margin-top: 1rem; }
+
+  
   
   /*------Events & Contact------*/
   
-  .details-events { font-size: 1.25rem; }
   
-  div.event-box {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
+.details-events { font-size: 1.25rem; }
   
-  div.event-form {
-    flex: 1 1 auto;
-    width: 58%;
-    height: auto;
-  }
+div.event-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
   
-  div.event-logo {
-    flex: 1 1 auto;
-    width: 42%;
-    height: auto;
-  }
+div.event-form {
+  flex: 1 1 auto;
+  width: 58%;
+  height: auto;
+}
   
-  div.event-logo img { padding: .5rem; }
+div.event-logo {
+  flex: 1 1 auto;
+  width: 42%;
+  height: auto;
+}
   
-  div.events-images {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+div.event-logo img { padding: .5rem; }
   
-  section div.dk-blue p { font-size: 1.35rem; }
+div.events-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
   
-  section.cdt-map { padding: 1rem; }
+section div.dk-blue p { font-size: 1.35rem; }
   
-  iframe { padding: 1.25rem; }
+section.cdt-map { padding: 1rem; }
+  
+iframe { padding: 1.25rem; }
+  
   
 /*-----Bicycles-----*/
   
-  .accordion dt { 
-    font-size: 1.35rem; 
-    padding: 1.15rem;
-  }
   
-  .accordion dd { padding: 1.5rem; }
+.accordion dt { 
+  font-size: 1.35rem; 
+  padding: 1.15rem;
+}
   
-  .accordion:first-of-type { margin-top: 1rem; }
+.accordion dd { padding: 1.5rem; }
   
-  .accordion:last-of-type { margin-bottom: 2.5rem; }
+.accordion:first-of-type { margin-top: 1rem; }
+  
+.accordion:last-of-type { margin-bottom: 2.5rem; }
+  
   
 /*-----Repairs-----*/
+
+.price {
+  font-size: 1.5rem;
+  margin: .75rem;
+  padding: 0;
+}
   
-  table { font-size: 1.25rem; }
+table { font-size: 1.25rem; }
   
-  div.repair-table { margin: 3.5rem 0; }
-  
-  thead td {
-    font-size: 1.6rem;
-    padding: 1rem 3rem;
-    }
+thead td {
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+}
   
 thead th { font-size: 1.4rem; }
   
 tfoot td {
   padding: 1rem;
   font-size: 1rem;
-  }
+}
   
 tbody td, thead th { padding: .75rem 1.75rem; }
   
@@ -161,15 +170,19 @@ tbody td, thead th { padding: .75rem 1.75rem; }
 }
   
 .repair-images figure { margin: 1.25rem 1.25rem; }
+
+tfoot td { font-size: 1rem; }
+  
+.s-green { font-size: 1.25rem; }
+
+.dark-blue { font-size: 1.5rem; }
   
 #none { display: none; }
   
+  
 /*------Video-----*/
   
-  video {
-    width: 568px;
-  }
   
-  
+  video { width: 568px; }  
 
 }

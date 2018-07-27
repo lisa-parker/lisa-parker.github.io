@@ -15,10 +15,14 @@ h3 {
 }
   
 section.info p {
-font-size: 1.75rem;
-margin: 1rem;
-padding: 0;
+  font-size: 1.75rem;
+  margin: 1rem;
+  padding: 0;
 }
+  
+p.info {
+  padding: 1.5rem;
+  }
   
 section.info { margin-bottom: 4rem; }
   
@@ -26,39 +30,55 @@ section.info { margin-bottom: 4rem; }
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin: 0;
-}
-   
+}  
+  
+/*-------Tours-------*/
+  
+div.tour-info, div.tour-info-rev {flex: 1 1 50%; }
+  
+div.tour-image { flex: 1 1 50%; }
+  
   
 /*-----Events and Contact-----*/
+  
   
 .details-events { font-size: 1.35rem; }
   
 div.event-logo { margin: 0 10rem; }
   
+div.event-logo p { font-size: 1.2rem; }
+
+div.event-logo h1 { font-size: 1.45rem; }
+  
 section.bikes { margin: 0 12%; }
   
 section div.dk-blue p { font-size: 1.5rem; }
   
+  
 /*-----Bicycle-----*/
   
-  .accordion dt { 
-    font-size: 1.5rem;
-    padding: 1.25rem;
-  }
   
-  .accordion:first-of-type { margin-top: 0; }
+.accordion dt { 
+  font-size: 1.5rem;
+  padding: 1.25rem;
+}
   
-   
-  .accordion:last-of-type { margin-bottom: 3rem; }
+.accordion:first-of-type { margin-top: 0; }
+  
+.accordion:last-of-type { margin-bottom: 3rem; }
+  
 
 /*----Repairs----*/
 
-  
-table {
-  font-size: 1.35rem;
+.price {
+  font-size: 1.75rem;
+  margin: 3rem 0 0 0;
+  padding: 0;
 }
+  
+table { font-size: 1.35rem; }
  
-div.repair-table { margin: 4rem; }
+div.repair-table { margin-bottom: 3rem; }
   
 thead td {
   font-size: 1.75rem;
@@ -77,8 +97,15 @@ tbody td, thead th { padding: 1rem 1.75rem; }
   
 #none { display: block; }
   
+tfoot td { font-size: 1.1rem; }
+  
+.s-green { font-size: 1.5rem; }
+
+.dark-blue { font-size: 1.65rem; } 
+  
   
 /*-----video-----*/
+  
   
 video { width: 896px; }
    

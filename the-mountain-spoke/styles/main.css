@@ -82,11 +82,11 @@ nav ul {
 
 nav ul li { text-align: right; }
 
-nav ul li.active { background-color: #505D70; }
+nav ul li.active { background-color: #4E5769; }
 
 nav ul li.active a {
   color: #FDFDFD;
-  font-weight:600;
+  font-weight: 600;
 }
 
 nav ul li a {
@@ -143,14 +143,15 @@ p.info {
   text-align: justify;
   margin: 0 0 2rem 0;
   line-height: 24px;
-  font-size: 1.125rem;
+  font-size: 1.05rem;
 }
 
 p.about {
   text-align: justify;
-  margin: 0 0 2rem 0;
+  margin: 0;
+  padding: 0 0 1rem;
   line-height: 24px;
-  font-size: 1.125rem;
+  font-size: 1.05rem;
 }
 
 .gallery { display: grid; }
@@ -181,9 +182,7 @@ footer {
   text-align: center;
 }
 
-footer div.contact {
-  padding: .75rem 0;
-}
+footer div.contact { padding: .75rem 0; }
 
 footer h4 {
   font-size: 1.35rem;
@@ -200,9 +199,7 @@ footer a {
   color: #C6DD72;
 }
 
-footer a:hover {
-  color: #FDFDFD; 
-}
+footer a:hover { color: #FDFDFD; }
 
 footer p {
   font-size: 1rem;
@@ -231,25 +228,20 @@ a#ref {
 
 a#video-link {
   font-size: 1.15rem;
-  font-weight: 600
+  font-weight: 600;
 }
 
-footer p.space {
-  letter-spacing: 1.25px;
-}
+footer p.space { letter-spacing: 1.25px; }
 
-footer span {
-  color: #C6DD72;
-}
+footer span { color: #C6DD72; }
 
 .link {
   color: #438837;
   font-weight: 600;
 }
 
-.link:hover {
-  font-weight: 900;
-}
+.link:hover { font-weight: 900; }
+
 
 /*---- Tours ----*/
 
@@ -260,23 +252,18 @@ footer span {
   text-align: center;
 }
 
-.group-details {
-  margin: 1rem 0;
-}
+.group-details { margin: 1rem 0; }
 
-strong {
-  font-weight: 700;
-}
+strong { font-weight: 700; }
 
 small {
   display: block;
-  font-size: 1.2rem;
   text-align: center;
   margin: 1.5rem 0 1rem 0;
   color: #438837;
 }
  
-div.flex {
+section.flex {
   display: flex;
   flex-flow: column;
 }
@@ -286,7 +273,6 @@ article.flex {
   flex-flow: column;
   margin: 1rem 0;
   background-color: #D3D3D8;
-  
   padding: 1rem;
 }
 
@@ -298,6 +284,7 @@ div.tour-image img {
 }
 
 article h3 { margin-top: 1.5rem; }
+
 
 /*-----events and contact-----*/
 
@@ -313,9 +300,7 @@ p.space-3 {
   margin: 0 0 3rem 0;
 }
 
-p.space-2 {
-  margin: 2rem 0 2rem 0;
-}
+p.space-2 { margin: 2rem 0 2rem 0; }
 
 .cdt-map img {
   display: block;
@@ -363,13 +348,9 @@ form label.above textarea {
   height: 3rem;
 }
 
-form label.above input:required {
-  border-left: 6px solid #1A3148;
-}
+form label.above input:required { border-left: 6px solid #1A3148; }
 
-form label.above input:required:valid {
-  border-left: 6px solid #C6DD72;
-}
+form label.above input:required:valid { border-left: 6px solid #C6DD72; }
 
 .green {
   font-size: 1.35rem;
@@ -386,7 +367,7 @@ form input.button {
   font-weight: 500;
   padding: 1rem;
   margin: 0 0 1rem 1rem;
-  max-width: 100%
+  max-width: 100%;
 }
 
 div.event-logo img {
@@ -398,19 +379,19 @@ div.event-logo img {
   padding: 0;
 }
 
-div.event-logo { text-align: center; }
-
 div.event-logo p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: .25rem 0;
+  text-shadow: 2px 2px 4px #1A3148;
   }
 
 div.event-logo h1 {
-  font-size: 1.25rem;
+  text-align: center;
+  font-size: 1.28rem;
   font-family: 'Arvo', serif;
   text-shadow: 2px 2px 4px #1A3148;
   margin: 0 0 .25rem 0;
-  letter-spacing: .4px;
+  letter-spacing: .2px;
 }
 
 section div.dk-blue p {
@@ -444,9 +425,7 @@ iframe {
   padding: 1rem;
 }
 
-section.address {
-  margin: 2rem 0 2rem 0;
-}
+section.address { margin: 2rem 0 2rem 0; }
 
 /*-------Bicycles-----*/
 
@@ -499,11 +478,6 @@ section.address {
   margin: .6rem;
 }
 
-.accordion dt:last-of-type {
-  border: none;
-  
-}
-
 .accordion dd {
   background-color: #D3D3D8;
   padding: 1rem;
@@ -511,6 +485,8 @@ section.address {
   line-height: 24px;
   border-radius: 0 0 4px 4px;
 }
+
+.accordion dd p { text-align: left; }
 
 .accordion picture img {
   display: block;
@@ -530,7 +506,15 @@ dd h4 {
 
 /*-----Repair-----*/
 
-div.repair-table { margin: 3rem 0; }
+.price {
+  text-align: center;
+  font-size: 1.15rem;
+  margin: .5rem 0;
+  padding: 0;
+  color: #438837;
+}
+
+div.repair-table { margin-bottom: 2rem; }
 
 table {
   margin: 0 auto;
@@ -541,7 +525,7 @@ table {
   }
 
 table, th, td, caption {
-  border: 2px solid #BCBDC6;
+  border: 2px solid #9396A5;
   border-collapse: collapse;
 }
 
@@ -550,7 +534,7 @@ tbody td, thead th { padding: .55rem .5rem; }
 thead th {
   font-size: 1.1rem;
   letter-spacing: .25px;
-  background-color: #E2E2E5;
+  background-color: #D2D1D8;
   color: #071F34;
   text-align: center;
 }
@@ -567,26 +551,20 @@ thead td {
   font-family: 'Arvo', serif;
 }
 
-tbody tr:nth-child(odd) {
-  background-color: #505D70;
-}
+tbody tr:nth-child(odd) { background-color: #505D70; }
 
-tbody tr:nth-child(even) {
-  background-color: #3F4A5F;
-}
+tbody tr:nth-child(even) { background-color: #3F4A5F; }
 
 tfoot td {
   text-align: center;
   padding: .5rem;
   color: #071F34;
-  background-color: #EBEAEC;
-  font-size: .75rem;
+  background-color: #D2D1D8;
+  font-size: .82rem;
   font-weight: 500;
 }
 
-.repair-images {
-  display: grid;
-}
+.repair-images { display: grid; }
 
 .repair-images figure img {
   max-width: 100%;
@@ -598,18 +576,19 @@ tfoot td {
 }
 
 .s-green {
-  color: #BDD85A;
+  color: #C6DD72;
   font-size: 1rem;
   font-weight: 700;
 }
 
-.m-green {
-  color: #A5C330;
-  font-size: 1.1rem;
+.dark-blue {
+  font-size: 1.35rem;
   font-weight: 700;
 }
 
+
 /*------Video-----*/
+
 
 video {
   width: 275px;
