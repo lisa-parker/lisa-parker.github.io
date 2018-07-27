@@ -39,6 +39,10 @@
     padding: 0;
 }
   
+  section t {
+    margin-bottom: 0;
+  }
+  
   section.info { margin-bottom: 3rem; }
   
   .gallery {
@@ -57,27 +61,28 @@
   
   article.flex {
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
   
-   div.tour-info {
-    flex: 1 1 100%;
-    width: 100%;
+   div.tour-info, div.tour-info-rev {
+    flex: 1 1 105%;
   }
   
   div.tour-image {
-    flex: 1 1 100%;
-    width: 100%;
+    flex: 1 1 95%;
   }
   
-  article.flex img { padding-left: 1rem; }
+  article.reverse { 
+    flex-flow: row-reverse; 
+  } 
   
-  article.reverse { flex-flow: row-reverse; } 
-  
-  article.reverse img {
-    padding-left: 0;
+ div.tour-info {
     padding-right: 1rem;
+  }
+  
+  div.tour-info-rev {
+    padding-left: 1rem;
   }
   
   /*------Events & Contact------*/
@@ -159,4 +164,12 @@ tbody td, thead th { padding: .75rem 1.75rem; }
   
 #none { display: none; }
   
+/*------Video-----*/
+  
+  video {
+    width: 568px;
+  }
+  
+  
+
 }

@@ -76,6 +76,12 @@ tbody td, thead th { padding: 1rem 1.75rem; }
 }
   
 #none { display: block; }
+  
+  
+/*-----video-----*/
+  
+video { width: 896px; }
    
 }
+
 

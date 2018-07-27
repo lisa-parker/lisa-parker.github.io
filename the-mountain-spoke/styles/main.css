@@ -5,7 +5,7 @@ body {
   font-family: Avenir, Arial, sans-serif;
   background-color: #FDFDFD;
   font-weight: 400;
-  color: #1A3148;
+  color: #071F34;
   }
 
 header, nav, main, footer { 
@@ -42,7 +42,7 @@ header img {
 header h1 {
   font-size: 1.4rem;
   color: #FDFDFD;
-  text-shadow: 2px 2px 4px #1A3148;
+  text-shadow: 2px 2px 4px #071F34;
   text-align: right;
   font-family: 'Arvo', serif; 
   margin: 0 0 .25rem 0;
@@ -56,7 +56,7 @@ header .subhead {
   text-align: right;
   margin: 0;
   font-size: 1.1rem;
-  text-shadow: 2px 2px 4px #1A3148;
+  text-shadow: 2px 2px 4px #071F34;
   }
 
 nav {
@@ -115,7 +115,6 @@ h2 {
   margin: 1.5rem 0 1.5rem 0;
   font-size: 1.4rem;
   text-align: center;
-  color: #1A3148;
   letter-spacing: .1px;
 }
 
@@ -123,7 +122,6 @@ h3 {
   margin: 2.5rem 0 .75rem 0;
   font-size: 1.25rem;
   font-family: 'Arvo', serif;
-  color: #1A3148;
   text-align: center;
   font-weight: 700;
   letter-spacing: .3px;
@@ -137,10 +135,10 @@ section.info p {
   color: #438837;
 }
 
+section.t { padding-bottom: 1rem;}
+
 p.info {
   background-color: #D3D3D8;
-  border: 2px solid #505D70;
-  /*box-shadow: 6px 6px 16px #8C8E9D;*/
   padding: 1rem;
   text-align: justify;
   margin: 0 0 2rem 0;
@@ -170,7 +168,7 @@ figcaption {
   font-size: 1rem;
   padding-top: .5rem;
   text-align: center;
-  color: #1A3148;
+  color: #071F34;
 }
 
 section img {
@@ -231,6 +229,11 @@ a#ref {
   font-weight: 600
 }
 
+a#video-link {
+  font-size: 1.15rem;
+  font-weight: 600
+}
+
 footer p.space {
   letter-spacing: 1.25px;
 }
@@ -273,7 +276,7 @@ small {
   color: #438837;
 }
  
-section.flex {
+div.flex {
   display: flex;
   flex-flow: column;
 }
@@ -283,7 +286,7 @@ article.flex {
   flex-flow: column;
   margin: 1rem 0;
   background-color: #D3D3D8;
-  box-shadow: 6px 6px 16px #8C8E9D;
+  
   padding: 1rem;
 }
 
@@ -291,6 +294,7 @@ div.tour-image img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 6px 6px 16px #8C8E9D;
 }
 
 article h3 { margin-top: 1.5rem; }
@@ -333,7 +337,7 @@ form fieldset {
   height: auto;
   font-size: 1rem;
   color: #FDFDFD;
-  border: 2px solid #071F34;
+  border: 2px solid #1A3148;
 }
   
 form legend {
@@ -354,13 +358,13 @@ form label.above textarea {
   width: 100%;
   max-width: 20rem;
   margin-bottom: 1rem;
-  border: 2px solid #26333E;
+  border: 2px solid #1A3148;
   padding-left: .5rem;
   height: 3rem;
 }
 
 form label.above input:required {
-  border-left: 6px solid #26333E;
+  border-left: 6px solid #1A3148;
 }
 
 form label.above input:required:valid {
@@ -465,8 +469,8 @@ section.address {
 }
 
 .accordion dt {
-  background: linear-gradient(to bottom, #63687B 0%, #10273C 100%);
-  color: #FDFDFD;
+  background: linear-gradient(to bottom, #343F52 0%, #071F34 100%);
+  color: #C6DD72;
   font-size: 1.25rem;
   font-family: 'Arvo', serif;
   text-align: center;
@@ -474,7 +478,8 @@ section.address {
   letter-spacing: .3px;
   padding: 1rem 0;
   cursor: pointer;
-  margin-top: .1rem;
+  margin-top: .15rem;
+  border-radius: 4px;
 }
 
 .accordion dt:before {
@@ -486,6 +491,7 @@ section.address {
   color: #071F34;
   background: linear-gradient(to bottom, #C6DD72 0%, #7FB95A 100%);
   font-weight: 700;
+  border-radius: 4px 4px 0 0;
 }
 
 .accordion dt.open:before {
@@ -503,6 +509,7 @@ section.address {
   padding: 1rem;
   font-size: 1.125rem;
   line-height: 24px;
+  border-radius: 0 0 4px 4px;
 }
 
 .accordion picture img {
@@ -600,5 +607,19 @@ tfoot td {
   color: #A5C330;
   font-size: 1.1rem;
   font-weight: 700;
+}
+
+/*------Video-----*/
+
+video {
+  width: 275px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+  padding-top: .25rem;
 }
 
