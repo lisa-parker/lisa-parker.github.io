@@ -69,12 +69,17 @@ small { font-size: 1.1rem; }
 article.flex {
   flex-flow: row;
   justify-content: space-between;
-  align-items: center;
 }
   
-div.tour-info, div.tour-info-rev {flex: 1 1 55%; }
+div.tour-info, div.tour-info-rev {
+  flex: 1 1 50%;
+  align-self: center;
+}
   
-div.tour-image { flex: 1 1 45%; }
+div.tour-image { 
+  flex: 1 1 50%;
+  align-self: flex-start;
+}
   
 article.reverse { flex-flow: row-reverse; } 
   
@@ -82,7 +87,7 @@ div.tour-info { padding-right: 1rem; }
   
 div.tour-info-rev { padding-left: 1rem; }
   
-h3.tour-head { margin-top: 1rem; }
+h3.tour-head { margin: 0; }
 
   
   

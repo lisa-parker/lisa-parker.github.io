@@ -248,7 +248,7 @@ footer span { color: #C6DD72; }
 
 .details {
   font-size: 1.1rem;
-  margin: .4rem;
+  margin: .25rem;
   text-align: center;
 }
 
@@ -283,7 +283,7 @@ div.tour-image img {
   box-shadow: 6px 6px 16px #8C8E9D;
 }
 
-article h3 { margin-top: 1.5rem; }
+h3.tour-head { margin: 1rem 0 0 0; }
 
 
 /*-----events and contact-----*/

@@ -32,12 +32,6 @@ section.info { margin-bottom: 4rem; }
   margin: 0;
 }  
   
-/*-------Tours-------*/
-  
-div.tour-info, div.tour-info-rev {flex: 1 1 50%; }
-  
-div.tour-image { flex: 1 1 50%; }
-  
   
 /*-----Events and Contact-----*/
   
